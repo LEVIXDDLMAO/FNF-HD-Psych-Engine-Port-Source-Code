@@ -12,7 +12,7 @@
 			"text": "What are you so afraid of?",
 			"boxState": "normal",
 			"portrait": "gf",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05
 		},
 		{
@@ -20,7 +20,7 @@
 			"text": "I just wanna... y'know--",
 			"boxState": "normal",
 			"portrait": "bf",
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05
 		},
 		{
@@ -28,7 +28,7 @@
 			"text": "Not mess up in front of you! It'll be so lame.",
 			"boxState": "normal",
 			"portrait": "bf",
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05
 		},
 		{
@@ -36,7 +36,7 @@
 			"text": "I don't think you'll mess up. And if you do...",
 			"boxState": "normal",
 			"portrait": "gf",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05
 		},
 		{
@@ -44,7 +44,7 @@
 			"text": "Then who cares?! You gotta fail before you succeed!!",
 			"boxState": "normal",
 			"portrait": "gf",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05
 		},
 		{
@@ -52,7 +52,7 @@
 			"text": "Come on, I'll show you.",
 			"boxState": "normal",
 			"portrait": "gf",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05
 		}
 	]

@@ -68,48 +68,48 @@
 	<SubTexture name="bubblesDEAD0019" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
 	<SubTexture name="bubblesDEAD0020" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
 	<SubTexture name="bubblesDEAD0021" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0000" x="1695" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0001" x="2075" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0002" x="2455" y="2124" width="440" height="415" frameX="-38" frameY="-12" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0003" x="2895" y="2124" width="440" height="415" frameX="-38" frameY="-12" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0004" x="3335" y="2124" width="507" height="549" frameX="-35" frameY="0" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0005" x="0" y="2756" width="507" height="549" frameX="-35" frameY="0" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0006" x="507" y="2756" width="619" height="632" frameX="-36" frameY="-66" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0007" x="507" y="2756" width="619" height="632" frameX="-36" frameY="-66" frameWidth="736" frameHeight="812"/>
-	<SubTexture name="impDEAD0008" x="1664" y="1378" width="690" height="746" frameX="-46" frameY="-66" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD0009" x="1664" y="1378" width="690" height="746" frameX="-46" frameY="-66" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD0010" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0011" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0012" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0013" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0014" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0015" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0016" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0017" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0018" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0019" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0020" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD0021" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20000" x="1126" y="2756" width="380" height="408" frameX="0" frameY="-71" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20001" x="1506" y="2756" width="380" height="408" frameX="0" frameY="-71" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20002" x="1886" y="2756" width="453" height="405" frameX="-38" frameY="-37" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20003" x="2339" y="2756" width="453" height="405" frameX="-38" frameY="-37" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20004" x="2792" y="2756" width="533" height="564" frameX="-9" frameY="0" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20005" x="3325" y="2756" width="533" height="564" frameX="-9" frameY="0" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20006" x="0" y="3388" width="677" height="632" frameX="-9" frameY="-81" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20007" x="0" y="3388" width="677" height="632" frameX="-9" frameY="-81" frameWidth="736" frameHeight="827"/>
-	<SubTexture name="impDEAD 20008" x="0" y="632" width="703" height="746" frameX="-33" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20009" x="0" y="632" width="703" height="746" frameX="-33" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20010" x="703" y="632" width="220" height="510" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20011" x="703" y="632" width="220" height="510" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20012" x="923" y="632" width="287" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20013" x="923" y="632" width="287" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20014" x="1210" y="632" width="331" height="529" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20015" x="1210" y="632" width="331" height="529" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20016" x="1541" y="632" width="391" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20017" x="1541" y="632" width="391" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20018" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
-	<SubTexture name="impDEAD 20019" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0000" x="1695" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0001" x="2075" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0002" x="2455" y="2124" width="440" height="415" frameX="-38" frameY="-12" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0003" x="2895" y="2124" width="440" height="415" frameX="-38" frameY="-12" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0004" x="3335" y="2124" width="507" height="549" frameX="-35" frameY="0" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0005" x="0" y="2756" width="507" height="549" frameX="-35" frameY="0" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0006" x="507" y="2756" width="619" height="632" frameX="-36" frameY="-66" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0007" x="507" y="2756" width="619" height="632" frameX="-36" frameY="-66" frameWidth="736" frameHeight="812"/>
+	<SubTexture name="limoDancerDEAD0008" x="1664" y="1378" width="690" height="746" frameX="-46" frameY="-66" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD0009" x="1664" y="1378" width="690" height="746" frameX="-46" frameY="-66" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD0010" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0011" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0012" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0013" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0014" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0015" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0016" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0017" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0018" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0019" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0020" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD0021" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-66" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20000" x="1126" y="2756" width="380" height="408" frameX="0" frameY="-71" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20001" x="1506" y="2756" width="380" height="408" frameX="0" frameY="-71" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20002" x="1886" y="2756" width="453" height="405" frameX="-38" frameY="-37" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20003" x="2339" y="2756" width="453" height="405" frameX="-38" frameY="-37" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20004" x="2792" y="2756" width="533" height="564" frameX="-9" frameY="0" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20005" x="3325" y="2756" width="533" height="564" frameX="-9" frameY="0" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20006" x="0" y="3388" width="677" height="632" frameX="-9" frameY="-81" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20007" x="0" y="3388" width="677" height="632" frameX="-9" frameY="-81" frameWidth="736" frameHeight="827"/>
+	<SubTexture name="limoDancerDEAD 20008" x="0" y="632" width="703" height="746" frameX="-33" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20009" x="0" y="632" width="703" height="746" frameX="-33" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20010" x="703" y="632" width="220" height="510" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20011" x="703" y="632" width="220" height="510" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20012" x="923" y="632" width="287" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20013" x="923" y="632" width="287" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20014" x="1210" y="632" width="331" height="529" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20015" x="1210" y="632" width="331" height="529" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20016" x="1541" y="632" width="391" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20017" x="1541" y="632" width="391" height="519" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20018" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
+	<SubTexture name="limoDancerDEAD 20019" x="1932" y="632" width="10" height="12" frameX="-46" frameY="-81" frameWidth="736" frameHeight="826"/>
 	<SubTexture name="michaelDEAD0000" x="1695" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
 	<SubTexture name="michaelDEAD0001" x="2075" y="2124" width="380" height="418" frameX="0" frameY="-58" frameWidth="736" frameHeight="812"/>
 	<SubTexture name="michaelDEAD0002" x="677" y="3388" width="440" height="415" frameX="-38" frameY="-12" frameWidth="736" frameHeight="812"/>

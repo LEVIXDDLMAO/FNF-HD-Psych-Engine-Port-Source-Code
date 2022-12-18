@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -10,7 +10,7 @@
 			"text": "Hey BF, they're playin my momma's song on the radio! You vibin' with it?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -19,7 +19,7 @@
 			"text": "Yee yee, I'm rockin' with it!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -28,7 +28,7 @@
 			"text": "Y'know, GF? I don't think I've ever been with someone who makes me as happy as you do."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -37,7 +37,7 @@
 			"text": "It's so nice having someone as clingy as me by my side."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -55,7 +55,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -64,7 +64,7 @@
 			"text": "What's with the face? It's the truth."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "Right."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -82,7 +82,7 @@
 			"text": "Speaking of relationships...what did you do to Pico a few weeks ago?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -91,7 +91,7 @@
 			"text": "Oh him? Well, you know the shadow realm from Yu-Gi-Oh?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -100,7 +100,7 @@
 			"text": "It's essentially like that. He isn't suffering or anything, but he belongs to us..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -109,7 +109,7 @@
 			"text": "Me specifically."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -118,7 +118,7 @@
 			"text": "Aight, that's real sus."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -127,7 +127,7 @@
 			"text": "Why are you having another man around all the time huh?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -136,7 +136,7 @@
 			"text": "Are you dense? Why are you jumping to conclusions all defensively?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -145,7 +145,7 @@
 			"text": "I might have him around all the time, but he isn't even able to interact with me unless I say so."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -154,7 +154,7 @@
 			"text": "None of this seems right to me."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -163,7 +163,7 @@
 			"text": "The last couple of things you just said make me doubt your feelings for me."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -172,7 +172,7 @@
 			"text": "Come on now! Even if we've only been dating for less than 3 months, that doesn't mean shit--"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -181,7 +181,7 @@
 			"text": "You're saying that I don't mean shit!?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -199,7 +199,7 @@
 			"text": "*thud*"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -217,7 +217,7 @@
 			"text": "(???): Don't waste yer time believin' her."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -226,7 +226,7 @@
 			"text": "What the--?! Who's there?!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -235,7 +235,7 @@
 			"text": "Also, you're grounded, 'member? Your father and I own that ginger now. YOU can't use him."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -244,7 +244,7 @@
 			"text": "Momma??"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -253,7 +253,7 @@
 			"text": "It's me honey! I'm crashin' this party."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -262,7 +262,7 @@
 			"text": "T-THAT'S YOUR MOM????"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -271,7 +271,7 @@
 			"text": "YEAH?? DON'T GET ANY IDEAS--"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "angry",
@@ -280,7 +280,7 @@
 			"text": "SILENCE, GEAREST."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "angry",
@@ -298,7 +298,7 @@
 			"text": "Ma'am, yes ma'am!!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -316,7 +316,7 @@
 			"text": "Aye!!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -325,7 +325,7 @@
 			"text": "Sorry to crash y'alls date, but yer initiation ain't over yet boy!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -334,7 +334,7 @@
 			"text": "You said you were staying out of this, mother."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -343,7 +343,7 @@
 			"text": "I was. Then Gnomeo over here decided to embarrass my shnuckums in front of his fans..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -352,7 +352,7 @@
 			"text": "You wouldn't believe how much he sobbed in my arms the night it happened."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -361,7 +361,7 @@
 			"text": "Tell me your name, boy."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -370,7 +370,7 @@
 			"text": "BF...My name's BF. Like, Boyfriend."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -379,7 +379,7 @@
 			"text": "KEKEKEKE!! That's the dumbest name I've ever heard of!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -388,7 +388,7 @@
 			"text": "Anyway's, the name's Mommy Mearest."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -397,7 +397,7 @@
 			"text": "After this, though, the only thing you'll be callin' me is Mommy."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -406,7 +406,7 @@
 			"text": "PFFT, you're funny. I like you, lady!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -415,7 +415,7 @@
 			"text": "(Thinking: The hell is she doing? Is she...she's trying to seduce BF, isn't she?!)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -424,7 +424,7 @@
 			"text": "(...Ugh! Whatever, I know BF's heart is in the right place! He's not going to fall for it.)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -433,7 +433,7 @@
 			"text": "(Then again...I made him really upset with me.) "
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -442,7 +442,7 @@
 			"text": "(It might make it easier for him to succumb to her charms...)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",

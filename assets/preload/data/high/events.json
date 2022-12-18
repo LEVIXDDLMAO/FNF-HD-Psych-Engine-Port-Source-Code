@@ -1,18 +1,116 @@
 {
 	"song": {
-		"speed": 2.5,
-		"stage": "limo",
-		"player1": "bf-car",
-		"player2": "mom-car",
-		"player3": null,
-		"events": [],
-		"notes": [],
-		"splashSkin": null,
-		"validScore": false,
-		"gfVersion": "gf-car",
-		"bpm": 125,
-		"arrowSkin": null,
-		"needsVoices": true,
-		"song": "High"
+		"events": [
+			[
+				3600,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				4200,
+				[
+					[
+						"Start Pole",
+						"",
+						""
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Start Pole",
+						"",
+						""
+					]
+				]
+			],
+			[
+				19680,
+				[
+					[
+						"Start Pole",
+						"",
+						""
+					]
+				]
+			],
+			[
+				26640,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				49680,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				65040,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				65760,
+				[
+					[
+						"Start Pole",
+						"",
+						""
+					]
+				]
+			],
+			[
+				69720,
+				[
+					[
+						"Start Pole",
+						"",
+						""
+					]
+				]
+			],
+			[
+				80400,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				95520,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			]
+		]
 	}
 }

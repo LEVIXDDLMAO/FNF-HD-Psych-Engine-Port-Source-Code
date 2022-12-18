@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -28,7 +28,7 @@
 			"text": "...!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -37,7 +37,7 @@
 			"text": "What...what even??"
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -46,7 +46,7 @@
 			"text": "(S) Are you okay fren? You blacked out, probably from too much spooky dancing!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -55,7 +55,7 @@
 			"text": "No, I...what?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -64,7 +64,7 @@
 			"text": "You guys didn't see that thing?!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "What are you on about?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -82,7 +82,7 @@
 			"text": "I must be going mad...either way, we done here! No more."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -91,7 +91,7 @@
 			"text": "It was fun, I guess, but my bowels are gettin' irritable."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -100,7 +100,7 @@
 			"text": "By the way, what were you two's names?"
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -109,7 +109,7 @@
 			"text": "(S) I'm Skid!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -118,7 +118,7 @@
 			"text": "(P) I'm pump!"
 		},
 		{
-			"sound": "skumpText",
+			"sound": "dialogue/skumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "angry",
@@ -127,7 +127,7 @@
 			"text": "And we're the Spooky Kids!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -136,7 +136,7 @@
 			"text": "Awe, I change my mind, they're so cute!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "Hope we have kids as ambitious as them one day."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -154,7 +154,7 @@
 			"text": "The more I gotta do shit like this, the less fertile I become."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -163,7 +163,7 @@
 			"text": "But it's coo! We do it for the culture! And the sex."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",

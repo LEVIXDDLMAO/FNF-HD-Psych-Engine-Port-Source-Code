@@ -44,7 +44,7 @@
 	"image": "characters/STREETLIGHT_DEATH",
 	"position": [
 		-50,
-		-100
+		-110
 	],
 	"healthicon": "bf",
 	"flip_x": true,

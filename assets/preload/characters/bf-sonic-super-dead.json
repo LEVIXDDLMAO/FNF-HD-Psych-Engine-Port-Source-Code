@@ -1,0 +1,62 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-460
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [
+				12,
+				13
+			],
+			"name": "BF SONIC DEAD"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				-460
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF SONIC DEAD",
+			"indices": [
+				12,
+				13
+			]
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 20,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "BF SONIC DEAD"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfSonicDeadSuper",
+	"position": [
+		-190,
+		55
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		0,
+		-340
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

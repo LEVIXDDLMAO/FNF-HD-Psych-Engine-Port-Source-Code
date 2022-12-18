@@ -1,0 +1,74 @@
+{
+	"song": {
+		"speed": 2.2,
+		"stage": "street",
+		"player1": "bf",
+		"player2": "carol",
+		"player3": null,
+		"events": [
+			[
+				18300,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					],
+					[
+						"HUD Fade",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				18600,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				18900,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				19500,
+				[
+					[
+						"HUD Fade",
+						"0",
+						"0.3"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 100,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Carol Roll"
+	}
+}

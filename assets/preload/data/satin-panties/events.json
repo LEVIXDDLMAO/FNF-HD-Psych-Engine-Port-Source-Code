@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 2.4,
+		"stage": "limo",
+		"player1": "bf-car",
+		"player2": "mom-car",
+		"player3": null,
+		"events": [
+			[
+				25909.0909090909,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			],
+			[
+				78272.7272727273,
+				[
+					[
+						"Kill HD Henchmen",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-car",
+		"bpm": 110,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Satin Panties"
+	}
+}

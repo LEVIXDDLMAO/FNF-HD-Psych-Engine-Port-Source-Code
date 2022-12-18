@@ -9,29 +9,29 @@
 			"fps": 24,
 			"anim": "firstDeath",
 			"indices": [],
-			"name": "BF dies instance"
+			"name": "BF dies"
 		},
 		{
 			"offsets": [
-				-20,
-				-1
+				-19,
+				1
 			],
 			"loop": true,
 			"fps": 24,
 			"anim": "deathLoop",
 			"indices": [],
-			"name": "BF Dead Loop instance"
+			"name": "BF Dead Loop"
 		},
 		{
 			"offsets": [
-				-20,
-				57
+				-19,
+				60
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "deathConfirm",
 			"indices": [],
-			"name": "BF Dead confirm instance"
+			"name": "BF Dead confirm"
 		}
 	],
 	"no_antialiasing": false,

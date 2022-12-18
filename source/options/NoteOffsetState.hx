@@ -30,6 +30,7 @@ class NoteOffsetState extends MusicBeatState
 
 	var coolText:FlxText;
 	var rating:FlxSprite;
+	var comboSpr:FlxSprite;
 	var comboNums:FlxSpriteGroup;
 	var dumbTexts:FlxTypedGroup<FlxText>;
 
@@ -64,10 +65,12 @@ class NoteOffsetState extends MusicBeatState
 
 		persistentUpdate = true;
 		FlxG.sound.pause();
+
 		// Stage
 		if(!ClientPrefs.OldHDbg) {
-			bg = new BGSprite('stageback', -627, -436, 0.9, 0.9);
-			bg.setGraphicSize(Std.int(bg.width * 1.0));
+			bg = new BGSprite('stageback', -626, -437, 0.9, 0.9);
+			bg.setGraphicSize(Std.int(bg.width * 0.5));
+			bg.updateHitbox();
 			add(bg);
 
 			stageFront = new BGSprite('stagefront', -657, 620, 0.98, 0.98);
@@ -158,8 +161,15 @@ class NoteOffsetState extends MusicBeatState
 		rating.setGraphicSize(Std.int(rating.width * 0.7));
 		rating.updateHitbox();
 		rating.antialiasing = ClientPrefs.globalAntialiasing;
-		
+
+		comboSpr = new FlxSprite().loadGraphic(Paths.image('combo'));
+		comboSpr.cameras = [camHUD];
+		comboSpr.setGraphicSize(Std.int(comboSpr.width * 0.6));
+		comboSpr.updateHitbox();
+		comboSpr.antialiasing = ClientPrefs.globalAntialiasing;
+
 		add(rating);
+		add(comboSpr);
 
 		comboNums = new FlxSpriteGroup();
 		comboNums.cameras = [camHUD];
@@ -192,7 +202,9 @@ class NoteOffsetState extends MusicBeatState
 
 		// Note delay stuff
 		
-		beatText = new Alphabet(0, 0, 'Beat Hit!', true, false, 0.05, 0.6);
+		beatText = new Alphabet(0, 0, 'Beat Hit!', true);
+		beatText.scaleX = 0.6;
+		beatText.scaleY = 0.6;
 		beatText.x += 260;
 		beatText.alpha = 0;
 		beatText.acceleration.y = 250;
@@ -405,7 +417,10 @@ class NoteOffsetState extends MusicBeatState
 			CustomFadeTransition.nextCamera = camOther;
 			MusicBeatState.switchState(new options.OptionsState());
 			FlxG.mouse.visible = false;
-			FlxG.sound.playMusic(Paths.music('freakyMenu'), 1, true);
+			if(!options.OptionsState.inGame)
+				FlxG.sound.playMusic(Paths.music('freakyMenu'), 1, true);
+			else
+				FlxG.sound.music.stop();
 		}
 
 		Conductor.songPosition = FlxG.sound.music.time;
@@ -463,6 +478,11 @@ class NoteOffsetState extends MusicBeatState
 		rating.x = coolText.x - 40 + ClientPrefs.comboOffset[0];
 		rating.y -= 60 + ClientPrefs.comboOffset[1];
 
+		comboSpr.screenCenter();
+		comboSpr.x = coolText.x + ClientPrefs.comboOffset[0];
+		comboSpr.x = comboNums.x + 140;
+		comboSpr.y += 65 - ClientPrefs.comboOffset[1];
+
 		comboNums.screenCenter();
 		comboNums.x = coolText.x - 90 + ClientPrefs.comboOffset[2];
 		comboNums.y += 80 - ClientPrefs.comboOffset[3];
@@ -510,6 +530,7 @@ class NoteOffsetState extends MusicBeatState
 	function updateMode()
 	{
 		rating.visible = onComboMenu;
+		comboSpr.visible = onComboMenu;
 		comboNums.visible = onComboMenu;
 		dumbTexts.visible = onComboMenu;
 		

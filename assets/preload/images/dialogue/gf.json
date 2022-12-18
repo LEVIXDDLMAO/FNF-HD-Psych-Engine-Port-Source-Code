@@ -1,414 +1,414 @@
 {
-	"dialogue_pos": "center",
 	"position": [
-		-250,
-		-300
+		-240,
+		-320
 	],
-	"scale": 0.5,
+	"dialogue_pos": "center",
+	"scale": 0.55,
+	"image": "gf",
 	"animations": [
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				80,
 				80
 			],
 			"anim": "default",
-			"loop_offsets": [
+			"idle_offsets": [
 				80,
 				80
 			],
-			"idle_name": "gf default.png",
-			"loop_name": "gf default.png"
+			"loop_name": "gf default.png",
+			"idle_name": "gf default.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				31,
 				34
 			],
 			"anim": "angry",
-			"loop_offsets": [
+			"idle_offsets": [
 				31,
 				34
 			],
-			"idle_name": "gf angry.png",
-			"loop_name": "gf angry.png"
+			"loop_name": "gf angry.png",
+			"idle_name": "gf angry.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				60,
 				69
 			],
 			"anim": "blush",
-			"loop_offsets": [
+			"idle_offsets": [
 				60,
 				69
 			],
-			"idle_name": "gf blush.png",
-			"loop_name": "gf blush.png"
+			"loop_name": "gf blush.png",
+			"idle_name": "gf blush.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				80,
 				80
 			],
 			"anim": "confused",
-			"loop_offsets": [
+			"idle_offsets": [
 				80,
 				80
 			],
-			"idle_name": "gf confused.png",
-			"loop_name": "gf confused.png"
+			"loop_name": "gf confused.png",
+			"idle_name": "gf confused.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				67,
 				60
 			],
 			"anim": "giggle",
-			"loop_offsets": [
+			"idle_offsets": [
 				67,
 				60
 			],
-			"idle_name": "gf giggle.png",
-			"loop_name": "gf giggle.png"
+			"loop_name": "gf giggle.png",
+			"idle_name": "gf giggle.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				62,
 				50
 			],
 			"anim": "grimace",
-			"loop_offsets": [
+			"idle_offsets": [
 				62,
 				50
 			],
-			"idle_name": "gf grimace.png",
-			"loop_name": "gf grimace.png"
+			"loop_name": "gf grimace.png",
+			"idle_name": "gf grimace.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				32,
 				57
 			],
 			"anim": "nervous",
-			"loop_offsets": [
+			"idle_offsets": [
 				32,
 				57
 			],
-			"idle_name": "gf nervous.png",
-			"loop_name": "gf nervous.png"
+			"loop_name": "gf nervous.png",
+			"idle_name": "gf nervous.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				32,
 				57
 			],
 			"anim": "nervous2",
-			"loop_offsets": [
+			"idle_offsets": [
 				32,
 				57
 			],
-			"idle_name": "nervous 2.png",
-			"loop_name": "nervous 2.png"
+			"loop_name": "nervous 2.png",
+			"idle_name": "nervous 2.png"
 		},
 		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "owl",
 			"idle_offsets": [
 				91,
 				37
 			],
-			"anim": "owl",
-			"loop_offsets": [
-				0,
-				0
-			],
-			"idle_name": "gf owl.png",
-			"loop_name": "gf owl.png"
+			"loop_name": "gf owl.png",
+			"idle_name": "gf owl.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				35,
 				28
 			],
 			"anim": "pout",
-			"loop_offsets": [
+			"idle_offsets": [
 				35,
 				28
 			],
-			"idle_name": "gf pout.png",
-			"loop_name": "gf pout.png"
+			"loop_name": "gf pout.png",
+			"idle_name": "gf pout.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				80,
 				80
 			],
 			"anim": "smile",
-			"loop_offsets": [
+			"idle_offsets": [
 				80,
 				80
 			],
-			"idle_name": "gf smile.png",
-			"loop_name": "gf smile.png"
+			"loop_name": "gf smile.png",
+			"idle_name": "gf smile.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				150,
 				70
 			],
 			"anim": "surprised",
-			"loop_offsets": [
+			"idle_offsets": [
 				150,
 				70
 			],
-			"idle_name": "gf surprised.png",
-			"loop_name": "gf surprised.png"
+			"loop_name": "gf surprised.png",
+			"idle_name": "gf surprised.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				112,
 				26
 			],
 			"anim": "wehhh",
-			"loop_offsets": [
+			"idle_offsets": [
 				112,
 				26
 			],
-			"idle_name": "gf wehhh.png",
-			"loop_name": "gf wehhh.png"
+			"loop_name": "gf wehhh.png",
+			"idle_name": "gf wehhh.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				74,
 				40
 			],
 			"anim": "worry",
-			"loop_offsets": [
+			"idle_offsets": [
 				74,
 				40
 			],
-			"idle_name": "gf worry.png",
-			"loop_name": "gf worry.png"
+			"loop_name": "gf worry.png",
+			"idle_name": "gf worry.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				111,
 				0
 			],
 			"anim": "happycry",
-			"loop_offsets": [
+			"idle_offsets": [
 				111,
 				0
 			],
-			"idle_name": "gf happy cry.png",
-			"loop_name": "gf happy cry.png"
+			"loop_name": "gf happy cry.png",
+			"idle_name": "gf happy cry.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				111,
 				0
 			],
 			"anim": "happycry2",
-			"loop_offsets": [
+			"idle_offsets": [
 				111,
 				0
 			],
-			"idle_name": "gf happy cry 2.png",
-			"loop_name": "gf happy cry 2.png"
+			"loop_name": "gf happy cry 2.png",
+			"idle_name": "gf happy cry 2.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				39,
 				19
 			],
 			"anim": "count",
-			"loop_offsets": [
+			"idle_offsets": [
 				39,
 				19
 			],
-			"idle_name": "gf count.png",
-			"loop_name": "gf count.png"
+			"loop_name": "gf count.png",
+			"idle_name": "gf count.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				8
 			],
 			"anim": "embarrassed",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				8
 			],
-			"idle_name": "gf embarrassed.png",
-			"loop_name": "gf embarrassed.png"
+			"loop_name": "gf embarrassed.png",
+			"idle_name": "gf embarrassed.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				31,
 				14
 			],
 			"anim": "angry2",
-			"loop_offsets": [
+			"idle_offsets": [
 				31,
 				14
 			],
-			"idle_name": "gf angry 2.png",
-			"loop_name": "gf angry 2.png"
+			"loop_name": "gf angry 2.png",
+			"idle_name": "gf angry 2.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				10,
 				-2
 			],
 			"anim": "reassure",
-			"loop_offsets": [
+			"idle_offsets": [
 				10,
 				-2
 			],
-			"idle_name": "gf reassure.png",
-			"loop_name": "gf reassure.png"
+			"loop_name": "gf reassure.png",
+			"idle_name": "gf reassure.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				11,
 				-1
 			],
 			"anim": "cry",
-			"loop_offsets": [
+			"idle_offsets": [
 				11,
 				-1
 			],
-			"idle_name": "gf cry.png",
-			"loop_name": "gf cry.png"
+			"loop_name": "gf cry.png",
+			"idle_name": "gf cry.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				29,
 				-3
 			],
 			"anim": "think",
-			"loop_offsets": [
+			"idle_offsets": [
 				29,
 				-3
 			],
-			"idle_name": "gf think.png",
-			"loop_name": "gf think.png"
+			"loop_name": "gf think.png",
+			"idle_name": "gf think.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				60,
 				69
 			],
 			"anim": "blush 2",
-			"loop_offsets": [
+			"idle_offsets": [
 				60,
 				69
 			],
-			"idle_name": "gf blush 2.png",
-			"loop_name": "gf blush 2.png"
+			"loop_name": "gf blush 2.png",
+			"idle_name": "gf blush 2.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				104,
 				30
 			],
 			"anim": "hug",
-			"loop_offsets": [
+			"idle_offsets": [
 				104,
 				30
 			],
-			"idle_name": "gf hug.png",
-			"loop_name": "gf hug.png"
+			"loop_name": "gf hug.png",
+			"idle_name": "gf hug.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				120,
 				30
 			],
 			"anim": "point",
-			"loop_offsets": [
+			"idle_offsets": [
 				120,
 				30
 			],
-			"idle_name": "gf point.png",
-			"loop_name": "gf point.png"
+			"loop_name": "gf point.png",
+			"idle_name": "gf point.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				148,
 				93
 			],
 			"anim": "reassure 2",
-			"loop_offsets": [
+			"idle_offsets": [
 				148,
 				93
 			],
-			"idle_name": "gf reassure 2.png",
-			"loop_name": "gf reassure 2.png"
+			"loop_name": "gf reassure 2.png",
+			"idle_name": "gf reassure 2.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				148,
 				93
 			],
 			"anim": "relief",
-			"loop_offsets": [
+			"idle_offsets": [
 				148,
 				93
 			],
-			"idle_name": "gf relief.png",
-			"loop_name": "gf relief.png"
+			"loop_name": "gf relief.png",
+			"idle_name": "gf relief.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				130,
 				30
 			],
 			"anim": "sheesh",
-			"loop_offsets": [
+			"idle_offsets": [
 				130,
 				30
 			],
-			"idle_name": "gf sheesh.png",
-			"loop_name": "gf sheesh.png"
+			"loop_name": "gf sheesh.png",
+			"idle_name": "gf sheesh.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				120,
 				90
 			],
 			"anim": "giddy",
-			"loop_offsets": [
+			"idle_offsets": [
 				120,
 				90
 			],
-			"idle_name": "gf giddy.png",
-			"loop_name": "gf giddy.png"
+			"loop_name": "gf giddy.png",
+			"idle_name": "gf giddy.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				62,
 				50
 			],
 			"anim": "eh",
-			"loop_offsets": [
+			"idle_offsets": [
 				62,
 				50
 			],
-			"idle_name": "gf eh.png",
-			"loop_name": "gf eh.png"
+			"loop_name": "gf eh.png",
+			"idle_name": "gf eh.png"
 		},
 		{
-			"idle_offsets": [
+			"loop_offsets": [
 				50,
 				20
 			],
 			"anim": "tired",
-			"loop_offsets": [
+			"idle_offsets": [
 				50,
 				20
 			],
-			"idle_name": "gf tired.png",
-			"loop_name": "gf tired.png"
+			"loop_name": "gf tired.png",
+			"idle_name": "gf tired.png"
 		}
-	],
-	"image": "gf"
+	]
 }

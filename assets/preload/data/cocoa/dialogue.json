@@ -11,7 +11,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharright",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "We hope you're having a jolly evening here in the-"
@@ -19,7 +19,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "(1): Yeah, yeah. Welcome to The Mall, thank you for bring' your fuckin' kids."
@@ -27,7 +27,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "Can't wait to clean up after 'em."
@@ -35,7 +35,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharright",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "(2): Be nice! It's not their fault you lost your other job."
@@ -43,7 +43,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "(1): Oh no, don't worry. I most definitely did not want that shit."
@@ -51,7 +51,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharright",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "(2): I just feel like you needa remember this is a happy time for everybody."
@@ -59,7 +59,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharright",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "Even if you gotta fake it, it'll be worth it when you make other people happy!"
@@ -67,7 +67,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "(1): Maaan, FUCK other people. I love being a hateful motherfucker!"
@@ -75,7 +75,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "*sigh* Whatever though. I guess it ain't too bad."
@@ -83,7 +83,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "Only thing that could make today worse is that blue haired kid showing up-"
@@ -91,7 +91,7 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "You have got to be shitting me."
@@ -99,13 +99,13 @@
 		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharright",
 			"boxState": "angry",
 			"expression": "default",
 			"text": "BRO."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "What am I gettin' for you first, boo?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -121,7 +121,7 @@
 			"text": "YOU aren't getting me anything yet. I should treat you this time around."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -129,7 +129,7 @@
 			"text": "I'm thinking of getting you a new coat...this one's a bit yikes!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -137,7 +137,7 @@
 			"text": "HUH?! WHAT'D'I-DO?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "Have you not seen the trim around the hood? What poor animal did they kill for that?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -153,7 +153,7 @@
 			"text": "Ay well y'know what? He died for the greater good. Lil homie added to the drip!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -161,7 +161,7 @@
 			"text": "OH, OH, BABE, CAN WE GO VISIT SANTA PLEEEASE?!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -169,7 +169,7 @@
 			"text": "You're like a toddler!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -193,7 +193,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -201,7 +201,7 @@
 			"text": "I don't really know what I expected."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -209,7 +209,7 @@
 			"text": "Goddamn, on the holidays man?!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -217,7 +217,7 @@
 			"text": "Y'all can't leave us alone for the fuckin' HOLIDAYS??"
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -225,7 +225,7 @@
 			"text": "You know we can't do that, boh."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -233,7 +233,7 @@
 			"text": "Your initiation MIGHT be over..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -241,7 +241,7 @@
 			"text": "BUT, we like messin' with you! It's hilarious how you can do little to stop us, too!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -249,7 +249,7 @@
 			"text": "Come on bruh, we just wanted to talk with Santa. What he even do to y'all?"
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -257,7 +257,7 @@
 			"text": "Mommy and I took a correct guess at your maturity and figured you'd want to see Santa..."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -265,7 +265,7 @@
 			"text": "SO, we prepared for your arrival. Now Santy Claus's at the end of a gun barrel!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -273,7 +273,7 @@
 			"text": "I'm guessing you guys wanna rap battle BF for Santa's life?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -281,7 +281,7 @@
 			"text": "RAP battle? Hon, did you forget what time 'a year it is?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -289,7 +289,7 @@
 			"text": "We jus' carolin', ain't that right babyblue?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -297,7 +297,7 @@
 			"text": "I don't know how I feel about pet names after the last time, ma'am."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -305,7 +305,7 @@
 			"text": "Other than that though, YEAH! Let's have a damn good Christmas then!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -313,7 +313,7 @@
 			"text": "But, BF?..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -321,7 +321,7 @@
 			"text": "I'm not sure you wanna do this here..."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -329,7 +329,7 @@
 			"text": "Relax hon, your boyfriend knows what he's doing."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -337,7 +337,7 @@
 			"text": "After all, he picked this place as a grave for a reason."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -353,7 +353,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -361,7 +361,7 @@
 			"text": "This is not how we bond on Christmas."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",

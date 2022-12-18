@@ -1,63 +1,63 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-140,
-		-370
+		-400
 	],
+	"dialogue_pos": "left",
 	"scale": 0.5,
+	"image": "darnell",
 	"animations": [
 		{
-			"loop_name": "darnell default.png",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"idle_name": "darnell default.png",
 			"anim": "default",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "darnell shit.png",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "darnell shit.png",
+			"loop_name": "darnell default.png",
+			"idle_name": "darnell default.png"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
 			"anim": "shit",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
-			]
+			],
+			"loop_name": "darnell shit.png",
+			"idle_name": "darnell shit.png"
 		},
 		{
-			"loop_name": "darnell shocked.png",
-			"idle_offsets": [
+			"loop_offsets": [
 				-1,
 				23
 			],
-			"idle_name": "darnell shocked.png",
 			"anim": "shocked",
-			"loop_offsets": [
+			"idle_offsets": [
 				-1,
 				23
-			]
+			],
+			"loop_name": "darnell shocked.png",
+			"idle_name": "darnell shocked.png"
 		},
 		{
-			"loop_name": "darnell happy.png",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "darnell happy.png",
-			"anim": "happy",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "darnell happy.png",
+			"idle_name": "darnell happy.png"
 		}
-	],
-	"image": "darnell"
+	]
 }

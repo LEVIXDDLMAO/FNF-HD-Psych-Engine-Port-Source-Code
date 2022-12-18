@@ -6,6 +6,7 @@ import flixel.graphics.frames.FlxAtlasFrames;
 class Week3Boppers extends FlxSprite
 {
 	public var animOffsets:Map<String, Array<Dynamic>>;
+	public var stopDancingTime:Float = 0;
 	public var stopDancing:Bool = false;
 	public function new(x:Float = 0, y:Float = 0)
 	{
@@ -79,5 +80,18 @@ class Week3Boppers extends FlxSprite
 		}
 		else
 			offset.set(0, 0);
+	}
+
+	override function update(elapsed:Float)
+	{
+		if (stopDancingTime > 0)
+		{
+			stopDancingTime -= elapsed;
+			if(stopDancingTime <= 0)
+			{
+				stopDancingTime = 0;
+			}
+		}
+		super.update(elapsed);
 	}
 }

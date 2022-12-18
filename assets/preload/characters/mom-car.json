@@ -1,152 +1,149 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				216,
 				36
 			],
-			"loop": false,
-			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Mom Left Pose",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mom Left Pose"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				24,
 				-30
 			],
-			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Mom Pose Left",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mom Pose Left"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-210
 			],
-			"loop": false,
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "MOM DOWN POSE",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "MOM DOWN POSE"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				25,
 				91
 			],
-			"loop": false,
-			"anim": "singUP",
 			"fps": 24,
-			"name": "Mom Up Pose",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mom Up Pose"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				-210
 			],
-			"anim": "singDOWN-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "MOM DOWN POSE",
+			"anim": "singDOWN-loop",
 			"indices": [
 				11,
 				12,
 				13,
 				14
-			]
+			],
+			"name": "MOM DOWN POSE"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				216,
 				36
 			],
-			"anim": "singLEFT-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Mom Left Pose",
+			"anim": "singLEFT-loop",
 			"indices": [
 				7,
 				8,
 				9,
 				10
-			]
+			],
+			"name": "Mom Left Pose"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				24,
 				-30
 			],
-			"anim": "singRIGHT-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Mom Pose Left",
+			"anim": "singRIGHT-loop",
 			"indices": [
 				8,
 				9,
 				10,
 				11
-			]
+			],
+			"name": "Mom Pose Left"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				25,
 				91
 			],
-			"anim": "singUP-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Mom Up Pose",
+			"anim": "singUP-loop",
 			"indices": [
 				11,
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Mom Up Pose"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				1,
-				0
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Mom Idle",
-			"indices": [
 				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12
-			]
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shootThatMF",
+			"indices": [],
+			"name": "MOM BEAM"
 		},
 		{
 			"offsets": [
 				1,
 				0
 			],
-			"indices": [
-				11,
-				10,
-				9,
-				8
-			],
+			"loop": true,
 			"fps": 24,
 			"anim": "idle-loop",
-			"loop": true,
+			"indices": [
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "Mom Idle"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
 			"name": "Mom Idle"
 		}
 	],
@@ -164,8 +161,8 @@
 		142
 	],
 	"camera_position": [
-		-95,
-		95
+		-142,
+		-29
 	],
 	"sing_duration": 4,
 	"scale": 1

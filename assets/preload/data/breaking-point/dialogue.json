@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -9,7 +9,7 @@
 			"text": "You enjoyin' the view? I paid a fat stack of money for this."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -17,7 +17,7 @@
 			"text": "It's from the mixtape money I'm guessing? Why are you spending so much on me, hon'?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -25,7 +25,7 @@
 			"text": "I gotta show some love for my girl!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -33,7 +33,7 @@
 			"text": "Plus, the whole drama with your mama blew my name up like hella!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -41,7 +41,7 @@
 			"text": "People watchin' my dodge lamps 'n' lasers made 'em think I was hot shit!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -49,7 +49,7 @@
 			"text": "WHICH I am, but y'know..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -57,7 +57,7 @@
 			"text": "I'm proud of you, but you need to save your money!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -65,7 +65,7 @@
 			"text": "I don't need material things like this."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "I needa spoil you every now and then. It's the least I can do as a mortal."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -81,7 +81,7 @@
 			"text": "Besides, whenever I get cool with your folks, I'ma steal money from 'em often, hehe..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -89,7 +89,7 @@
 			"text": "You're really confident in getting on my parents' good side, huh?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -97,7 +97,7 @@
 			"text": "Well you needa' get them vocal chords in shape! My parents be goin' ham--"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -105,7 +105,7 @@
 			"text": "Hol' up, you talkin' like me now?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "Stealin' my flow, bar for bar!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -121,7 +121,7 @@
 			"text": "Oop, hehe..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -129,7 +129,7 @@
 			"text": "Hm...What should I sing?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",

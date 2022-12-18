@@ -163,7 +163,6 @@ class PauseSubState extends MusicBeatSubstate
 		{
 			changeSelection(-FlxG.mouse.wheel);
 		}
-
 		var daSelected:String = menuItems[curSelected];
 		switch (daSelected)
 		{
@@ -221,9 +220,11 @@ class PauseSubState extends MusicBeatSubstate
 					close();
 				case 'Change Difficulty':
 					menuItems = difficultyChoices;
+					deleteSkipTimeText();
 					regenMenu();
 				case 'Options':
-					MusicBeatState.switchState(new options.OptionsStateInGame());
+					options.OptionsState.inGame = true;
+					LoadingState.loadAndSwitchState(new options.OptionsState());
 				case 'Toggle Practice Mode':
 					PlayState.instance.practiceMode = !PlayState.instance.practiceMode;
 					PlayState.changedDifficulty = true;
@@ -259,19 +260,37 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.instance.botplaySine = 0;
 				case "Exit to menu":
 					PlayState.deathCounter = 0;
+					PlayState.poleDeathCounter = 0;
 					PlayState.seenCutscene = false;
+
+					WeekData.loadTheFirstEnabledMod();
 					if(PlayState.isStoryMode) {
 						MusicBeatState.switchState(new StoryMenuState());
-						FlxG.sound.music.stop();
 					} else {
 						MusicBeatState.switchState(new FreeplayState());
+					}
+					if(!PlayState.isStoryMode) {
 						FlxG.sound.playMusic(Paths.music('freakyMenu'));
 					}
+					PlayState.cancelMusicFadeTween();
 					PlayState.changedDifficulty = false;
+					PlayState.gofuckingdecked = false;
 					PlayState.chartingMode = false;
 					PlayState.fuckCval = false;
 			}
 		}
+	}
+
+	function deleteSkipTimeText()
+	{
+		if(skipTimeText != null)
+		{
+			skipTimeText.kill();
+			remove(skipTimeText);
+			skipTimeText.destroy();
+		}
+		skipTimeText = null;
+		skipTimeTracker = null;
 	}
 
 	public static function restartSong(noTrans:Bool = false)
@@ -342,7 +361,7 @@ class PauseSubState extends MusicBeatSubstate
 		}
 
 		for (i in 0...menuItems.length) {
-			var item = new Alphabet(0, 70 * i + 30, menuItems[i], true, false);
+			var item = new Alphabet(90, 320, menuItems[i], true);
 			item.isMenuItem = true;
 			item.targetY = i;
 			grpMenuShit.add(item);
@@ -366,7 +385,7 @@ class PauseSubState extends MusicBeatSubstate
 	
 	function updateSkipTextStuff()
 	{
-		if(skipTimeText == null) return;
+		if(skipTimeText == null || skipTimeTracker == null) return;
 
 		skipTimeText.x = skipTimeTracker.x + skipTimeTracker.width + 60;
 		skipTimeText.y = skipTimeTracker.y;

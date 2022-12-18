@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="limoDancer.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="limoDancerDANCE0000" x="0" y="0" width="386" height="401" frameX="-1" frameY="0" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0001" x="386" y="0" width="386" height="389" frameX="-1" frameY="-12" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0002" x="772" y="0" width="384" height="386" frameX="-2" frameY="-15" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0003" x="772" y="0" width="384" height="386" frameX="-2" frameY="-15" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0004" x="772" y="0" width="384" height="386" frameX="-2" frameY="-15" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0005" x="1156" y="0" width="386" height="384" frameX="0" frameY="-17" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0006" x="1156" y="0" width="386" height="384" frameX="0" frameY="-17" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0007" x="1542" y="0" width="381" height="379" frameX="-5" frameY="-22" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0008" x="1542" y="0" width="381" height="379" frameX="-5" frameY="-22" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0009" x="0" y="401" width="243" height="362" frameX="-117" frameY="-38" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0010" x="243" y="401" width="243" height="372" frameX="-117" frameY="-28" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0011" x="486" y="401" width="244" height="375" frameX="-115" frameY="-27" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0012" x="486" y="401" width="244" height="375" frameX="-115" frameY="-27" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0013" x="486" y="401" width="244" height="375" frameX="-115" frameY="-27" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0014" x="486" y="401" width="244" height="375" frameX="-115" frameY="-27" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0015" x="730" y="401" width="389" height="384" frameX="-127" frameY="-17" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0016" x="1119" y="401" width="389" height="368" frameX="-127" frameY="-33" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0017" x="1508" y="401" width="378" height="363" frameX="-136" frameY="-38" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0018" x="1508" y="401" width="378" height="363" frameX="-136" frameY="-38" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0019" x="1508" y="401" width="378" height="363" frameX="-136" frameY="-38" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0020" x="0" y="785" width="380" height="362" frameX="-135" frameY="-39" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0021" x="0" y="785" width="380" height="362" frameX="-135" frameY="-39" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0022" x="380" y="785" width="379" height="361" frameX="-136" frameY="-40" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0023" x="380" y="785" width="379" height="361" frameX="-136" frameY="-40" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0024" x="759" y="785" width="238" height="357" frameX="-168" frameY="-45" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0025" x="997" y="785" width="238" height="369" frameX="-168" frameY="-33" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0026" x="1235" y="785" width="234" height="373" frameX="-169" frameY="-30" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0027" x="1235" y="785" width="234" height="373" frameX="-169" frameY="-30" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0028" x="1235" y="785" width="234" height="373" frameX="-169" frameY="-30" frameWidth="516" frameHeight="403"/>
+	<SubTexture name="limoDancerDANCE0029" x="1235" y="785" width="234" height="373" frameX="-169" frameY="-30" frameWidth="516" frameHeight="403"/>
+</TextureAtlas>

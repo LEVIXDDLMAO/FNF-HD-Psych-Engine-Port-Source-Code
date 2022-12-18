@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "carol idle0"
+		},
+		{
+			"offsets": [
+				-24,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "carol down0"
+		},
+		{
+			"offsets": [
+				-66,
+				83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "carol up0"
+		},
+		{
+			"offsets": [
+				-165,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "carol right0"
+		},
+		{
+			"offsets": [
+				-15,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "carol left0"
+		},
+		{
+			"offsets": [
+				-200,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "laser",
+			"indices": [],
+			"name": "carol alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/carol_assets",
+	"position": [
+		-220,
+		120
+	],
+	"healthicon": "carol-hellroll",
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		103,
+		0
+	],
+	"camera_position": [
+		192,
+		13
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

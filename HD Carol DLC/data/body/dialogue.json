@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "What you think about that?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I wrote that song some months ago."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "scoff",
+			"text": "Meh, I heard better songs."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "stressed",
+			"text": "Okay, that hurts dude."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "flirt",
+			"text": "You're scared of my voice? I knew it."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "question",
+			"text": "Yeah you little garbage, let's do another one."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "Guys you are acting like kids!"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "youaredead",
+			"text": "Shut up GF, this is something personal now."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "default",
+			"text": "WHAT DID YOU SAY?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Don't worry about that, let's continue."
+		}
+	]
+}

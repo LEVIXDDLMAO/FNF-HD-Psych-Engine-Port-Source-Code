@@ -1,63 +1,63 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-180,
-		-240
+		-260
 	],
-	"scale": 0.5,
+	"dialogue_pos": "left",
+	"scale": 0.6,
+	"image": "monster",
 	"animations": [
 		{
-			"loop_name": "monster default.png",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"idle_name": "monster default.png",
 			"anim": "default",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
-			]
+			],
+			"loop_name": "monster default.png",
+			"idle_name": "monster default.png"
 		},
 		{
-			"loop_name": "monster laugh.png",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				30
 			],
-			"idle_name": "monster laugh.png",
 			"anim": "laugh",
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				30
-			]
+			],
+			"loop_name": "monster laugh.png",
+			"idle_name": "monster laugh.png"
 		},
 		{
-			"loop_name": "monster smile.png",
-			"idle_offsets": [
+			"loop_offsets": [
 				66,
 				-10
 			],
-			"idle_name": "monster smile.png",
 			"anim": "smile",
-			"loop_offsets": [
+			"idle_offsets": [
 				66,
 				-10
-			]
+			],
+			"loop_name": "monster smile.png",
+			"idle_name": "monster smile.png"
 		},
 		{
-			"loop_name": "monster glare.png",
+			"loop_offsets": [
+				46,
+				83
+			],
+			"anim": "glare",
 			"idle_offsets": [
 				46,
 				83
 			],
-			"idle_name": "monster glare.png",
-			"anim": "glare",
-			"loop_offsets": [
-				46,
-				83
-			]
+			"loop_name": "monster glare.png",
+			"idle_name": "monster glare.png"
 		}
-	],
-	"image": "monster"
+	]
 }

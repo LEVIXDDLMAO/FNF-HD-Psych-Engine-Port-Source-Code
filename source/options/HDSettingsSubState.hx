@@ -44,6 +44,13 @@ class HDSettingsSubState extends BaseOptionsMenu
 			['New Version', 'Old Version', 'Older Version', 'Disabled']);
 		addOption(option);
 
+		var option:Option = new Option('Disable dodge warning sound',
+			'If checked, it disables the dodge warning sound effect.',
+			'disableDodgeSound',
+			'bool',
+			false);
+		addOption(option);
+
 		var option:Option = new Option('Dialogues:',
 			'Toggles dialogues, Everywhere option enables them in Freeplay and Story Mode.',
 			'disablesDialogues',
@@ -52,26 +59,19 @@ class HDSettingsSubState extends BaseOptionsMenu
 			['Story Mode', 'Everywhere', 'Disabled']);
 		addOption(option);
 
+		var option:Option = new Option('Dodge Pole Spawns Randomly',
+			"If checked, the dodge pole will spawn randomly.",
+			'poleSpawn',
+			'bool',
+			false);
+		addOption(option);
+
 		var option:Option = new Option('Kill Henchmen:',
 			"If only in milf, the imps will die only one time in milf and never come back. If in every song the imps will die in every song and come back.",
 			'impEvent',
 			'string',
 			'Only In Milf',
 			['Only In Milf', 'In Every Song']);
-		addOption(option);
-
-		var option:Option = new Option('Dodge Pole Spawns Regularly',
-			"If checked, the dodge pole will spawn more times. If not, the dodge pole will spawn less times.",
-			'poleSpawn',
-			'bool',
-			true);
-		addOption(option);
-
-		var option:Option = new Option('Disable dodge warning sound',
-			'If checked, it disables the dodge warning sound effect.',
-			'disableDodgeSound',
-			'bool',
-			false);
 		addOption(option);
 
 		var option:Option = new Option('Old HD sprites',

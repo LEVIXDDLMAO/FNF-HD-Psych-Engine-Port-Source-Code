@@ -1,6 +1,5 @@
 package;
 
-
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.util.FlxColor;
@@ -12,20 +11,22 @@ class GallerySubState extends MusicBeatSubstate
 {
     var images:Array<String>;
     var curSelected:Int = 0;
-    private var camFollow:FlxObject;
+    public var camFollow:FlxObject;
     var artSprites:FlxTypedGroup<FlxSprite>;
     var colorBG:FlxSprite;
     var canSelect:Bool = true;
     var text:Alphabet;
 
     public function new(_images:Array<String>) {
+
         super();
+
         images = _images;
         trace(images);
 
-        for (v in 0...images.length) {
+        /*for (v in 0...images.length) {
             images.remove('void');
-        }
+        }*/
 
         colorBG = new FlxSprite(-2700,-1500).makeGraphic(FlxG.width * 6, FlxG.height * 6 );
         colorBG.scrollFactor.set(0,0);
@@ -46,12 +47,13 @@ class GallerySubState extends MusicBeatSubstate
 
         camFollow.x = artSprites.members[0].getMidpoint().x;
         camFollow.y = artSprites.members[0].getMidpoint().y;
+
         changeSelection();
     }
 
     override function update(elapsed:Float) {
         FlxG.camera.focusOn(camFollow.getPosition());
-        if (controls.BACK){
+        if (controls.BACK) {
             FlxG.sound.play(Paths.sound('cancelMenu'));
             close();
         }
@@ -63,6 +65,13 @@ class GallerySubState extends MusicBeatSubstate
             camFollow.y += 5;
         if (controls.UI_DOWN_P)
             camFollow.y -= 5;
+        if (controls.UI_UP_P && FlxG.keys.pressed.SHIFT)
+            camFollow.y += 20;
+        if (controls.UI_DOWN_P && FlxG.keys.pressed.SHIFT)
+            camFollow.y -= 20;
+
+        if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
 
         super.update(elapsed);
     }
@@ -79,33 +88,33 @@ class GallerySubState extends MusicBeatSubstate
     
         switch (images[curSelected]) {
             case 'bf':
-            tweencol(79,88,151);
+                tweencol(79, 88, 151);
             case 'gf':
-            tweencol(184,90,186);
+                tweencol(184, 90, 186);
             case 'dad':
-            tweencol(228,188,74);
+                tweencol(228, 188, 74);
             case 'skump':
-            tweencol(103,76,208);
+                tweencol(103, 76, 208);
             case 'monster':
-            tweencol(61,91,62);
+                tweencol(61, 91, 62);
             case 'pico':
-            tweencol(160,56,137);
+                tweencol(160, 56, 137);
             case 'darnell':
-            tweencol(73,144,57);
+                tweencol(73, 144, 57);
             case 'nene':
-            tweencol(57,106,144);
+                tweencol(57, 106, 144);
             case 'mom':
-            tweencol(194,85,163);
+                tweencol(194, 85, 163);
             case 'sonic':
-            tweencol(146,113,253);
+                tweencol(146, 113, 253);
             case 'carol':
-            tweencol(151,36,60);
+                tweencol(151, 36, 60);
         }
 
         FlxTween.tween(camFollow, {x : artSprites.members[curSelected].getMidpoint().x, y:artSprites.members[curSelected].getMidpoint().y}, 0.8, {ease: FlxEase.smoothStepOut, onComplete: function(twn:FlxTween){canSelect = true;}});
     }
 
-    function tweencol(color1:Int, color2:Int,color3:Int) {
-        FlxTween.color(colorBG,1.0,colorBG.color,FlxColor.fromRGB(color1,color2,color3));
+    function tweencol(color1:Int, color2:Int, color3:Int) {
+        FlxTween.color(colorBG, 1.0, colorBG.color,FlxColor.fromRGB(color1, color2, color3));
     }
 }

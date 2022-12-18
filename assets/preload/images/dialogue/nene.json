@@ -1,76 +1,76 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-140,
-		-330
+		-350
 	],
-	"scale": 0.5,
+	"dialogue_pos": "left",
+	"scale": 0.55,
+	"image": "nene",
 	"animations": [
 		{
-			"loop_name": "nene default.png",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "default",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "nene default.png",
-			"anim": "default",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "nene default.png",
+			"idle_name": "nene default.png"
 		},
 		{
-			"loop_name": "nene shocked.png",
+			"loop_offsets": [
+				-1,
+				77
+			],
+			"anim": "shocked",
 			"idle_offsets": [
 				-1,
 				-77
 			],
-			"idle_name": "nene shocked.png",
-			"anim": "shocked",
-			"loop_offsets": [
-				-1,
-				77
-			]
+			"loop_name": "nene shocked.png",
+			"idle_name": "nene shocked.png"
 		},
 		{
-			"loop_name": "nene happy.png",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "happy",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "nene happy.png",
-			"anim": "happy",
+			"loop_name": "nene happy.png",
+			"idle_name": "nene happy.png"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "nene cries.png",
+			],
+			"anim": "cries",
 			"idle_offsets": [
 				0,
 				49
 			],
-			"idle_name": "nene cries.png",
-			"anim": "cries",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "nene cries.png",
+			"idle_name": "nene cries.png"
 		},
 		{
-			"loop_name": "nene disgusted.png",
+			"loop_offsets": [
+				-1,
+				-77
+			],
+			"anim": "disgusted",
 			"idle_offsets": [
 				-1,
 				-77
 			],
-			"idle_name": "nene disgusted.png",
-			"anim": "disgusted",
-			"loop_offsets": [
-				-1,
-				-77
-			]
+			"loop_name": "nene disgusted.png",
+			"idle_name": "nene disgusted.png"
 		}
-	],
-	"image": "nene"
+	]
 }

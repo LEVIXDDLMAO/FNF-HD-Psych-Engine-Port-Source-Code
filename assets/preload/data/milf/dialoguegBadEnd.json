@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"expression": "defaultSweat",
+			"text": "BF...that was amazing...I'm so...exhilarated.",
+			"boxState": "normal",
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom"
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "normal",
+			"expression": "defaultSweat",
+			"text": "You sapped me of all of my juices. From my mic, that is, hehe..."
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "I know you won, but...can you please, just come be a part of my collection?"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "clear",
+			"text": "I don't want you!! DAMN!"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "clear",
+			"text": "I'm with your daughter because I love HER."
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "dreamy",
+			"text": "I love the way SHE smells, how HER voice sounds, how HER hair flows in the wind..."
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "angry",
+			"expression": "angry",
+			"text": "What are you saying?!"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "I'M SAYING I LOVE FAT BITCHES!! Mainly the one I'm with, but the others are cool too!!"
+		},
+		{
+			"sound": "dialogue/gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "happycry2",
+			"text": "Eghhjgfhhfh hooohooooo!?"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "angry",
+			"text": "ALSO, you just let those imps die. They had lives, too!"
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Tch, those imps couldn't take the heat, so they got kicked outta the kitchen."
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "normal",
+			"expression": "smirk",
+			"text": "By that I mean their limbs are strewn along the road."
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Agh, you two are perfect for eachother!! Whatever, you can have 'em girl."
+		},
+		{
+			"sound": "dialogue/gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "happycry2",
+			"text": "Momma!!"
+		},
+		{
+			"sound": "dialogue/gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "happycry",
+			"text": "Even though you've permanently damaged my view of you and made my ego plummet, I love you for this!"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "You serious, ma?!"
+		},
+		{
+			"sound": "dialogue/momText",
+			"speed": 0.05,
+			"portrait": "mom",
+			"boxState": "angry",
+			"expression": "smirk",
+			"text": "SIKE! You're still mine boh!"
+		},
+		{
+			"sound": "dialogue/boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "Wait wha-"
+		}
+	]
+}

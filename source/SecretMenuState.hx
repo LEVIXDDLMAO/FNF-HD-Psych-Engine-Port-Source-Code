@@ -22,11 +22,12 @@ class SecretMenuState extends MusicBeatState
 
 	var weekImages:Array<Dynamic> =[
 		['void', 'bf', 'void'],
-		['void','pico', 'void'],
+		['void', 'pico', 'void'],
 	];
 	var weekTexts:FlxTypedGroup<FlxSprite>;
 	var selectionBG:FlxTypedGroup<FlxSprite>;
 	var curSelected:Int = 0;
+	var checkers:FlxBackdrop;
 	var logoBl:FlxSprite;
 	var rightArrow:FlxSprite;
 	var leftArrow:FlxSprite;
@@ -45,21 +46,19 @@ class SecretMenuState extends MusicBeatState
 	private var shit:FlxObject;
 	override function create()
 	{
-
 		#if debug
 		isDebug = true;
 		#end
-		
+
 		shit = new FlxObject(0, 0, 1, 1);
 
 		Conductor.changeBPM(95);
 		FlxG.sound.playMusic(Paths.music('gallery'), 1);
-		var bg:FlxSprite = new FlxSprite(0,0).makeGraphic(1280,720,FlxColor.fromRGB(69,108,207),false);
+		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(1280, 720, FlxColor.fromRGB(69, 108, 207), false);
 		add(bg);
 
-		var checkers:FlxBackdrop = new FlxBackdrop(Paths.image('gallery/checkers'),0,0,true,true,0,0);
-		checkers.velocity.x = 20;
-		checkers.velocity.y = 20;
+		checkers = new FlxBackdrop(Paths.image('gallery/checkers'), XY, 0, 0);
+		checkers.velocity.set(20, 20);
 		add(checkers);
 
 		weekTexts = new FlxTypedGroup<FlxSprite>();
@@ -85,49 +84,49 @@ class SecretMenuState extends MusicBeatState
 
 		Text = new FlxText(200, 100, 640, "Choose Your", 40);
 		Text.scrollFactor.set(0, 0);
-		Text.setFormat(Paths.font("funkin.otf"), 40, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		Text.antialiasing = true;
+		Text.setFormat(Paths.font("funkin.ttf"), 45, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		Text.antialiasing = ClientPrefs.globalAntialiasing;
 		Text.borderSize = 2;
-		Text.borderQuality = 1;
+		Text.borderQuality = 2;
 		add(Text);
 
-		Text1 = new FlxText(Text.x + 15, Text.y + 40, 640, "Character", 40);
+		Text1 = new FlxText(Text.x + 20, Text.y + 35, 640, "Character", 40);
 		Text1.scrollFactor.set(0, 0);
-		Text1.setFormat(Paths.font("funkin.otf"), 40, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		Text1.antialiasing = true;
+		Text1.setFormat(Paths.font("funkin.ttf"), 45, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		Text1.antialiasing = ClientPrefs.globalAntialiasing;
 		Text1.borderSize = 2;
-		Text1.borderQuality = 1;
+		Text1.borderQuality = 2;
 		add(Text1);
 
 		Text2 = new FlxText(930, 100, 640, "WARNING :", 40);
 		Text2.scrollFactor.set(0, 0);
-		Text2.setFormat(Paths.font("funkin.otf"), 40, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		Text2.antialiasing = true;
+		Text2.setFormat(Paths.font("funkin.ttf"), 45, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		Text2.antialiasing = ClientPrefs.globalAntialiasing;
 		Text2.borderSize = 2;
-		Text2.borderQuality = 1;
+		Text2.borderQuality = 2;
 		add(Text2);
 
 		Text3 = new FlxText(Text2.x - 110, Text2.y + 30, 640, "You can only play as pico", 40);
 		Text3.scrollFactor.set(0, 0);
-		Text3.setFormat(Paths.font("funkin.otf"), 40, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		Text3.antialiasing = true;
+		Text3.setFormat(Paths.font("funkin.ttf"), 45, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		Text3.antialiasing = ClientPrefs.globalAntialiasing;
 		Text3.borderSize = 2;
-		Text3.borderQuality = 1;
+		Text3.borderQuality = 2;
 		add(Text3);
 
 		Text4 = new FlxText(Text3.x + 70, Text3.y + 40, 640, "in Story Mode!", 40);
 		Text4.scrollFactor.set(0, 0);
-		Text4.setFormat(Paths.font("funkin.otf"), 40, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		Text4.antialiasing = true;
+		Text4.setFormat(Paths.font("funkin.ttf"), 45, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		Text4.antialiasing = ClientPrefs.globalAntialiasing;
 		Text4.borderSize = 2;
-		Text4.borderQuality = 1;
+		Text4.borderQuality = 2;
 		add(Text4);
 
 		blackBG = new BGSprite(null, -FlxG.width, -FlxG.height, 0, 0);
 		blackBG.makeGraphic(Std.int(FlxG.width * 3), Std.int(FlxG.height * 3), FlxColor.BLACK);
 		blackBG.visible = false;
 		add(blackBG);
-	
+
 		for (i in 0...weeks.length){
 			var weekText:FlxSprite = new FlxSprite(20 + (300 * i), 40).loadGraphic(Paths.image('storymenu/' + weeks[i]));
 			weekText.antialiasing = ClientPrefs.globalAntialiasing;
@@ -153,16 +152,17 @@ class SecretMenuState extends MusicBeatState
 		super.create();
 	}
 
-	override public function update(elapsed:Float){
-	
+	override public function update(elapsed:Float) {
 		if (controls.UI_RIGHT_P && canSelect)
 			changeCharacter(1);
 		if (controls.UI_LEFT_P && canSelect)
 			changeCharacter(-1);
+
 		if (controls.UI_RIGHT)
 			rightArrow.animation.play('press')
 		else
 			rightArrow.animation.play('idle');
+
 		if (controls.UI_LEFT)
 			leftArrow.animation.play('press');
 		else
@@ -173,7 +173,9 @@ class SecretMenuState extends MusicBeatState
 			stopspamming = true;
 			canSelect = false;
 		}
+
 		if (controls.BACK) {
+			checkers.velocity.set(0, 0);
 			stopspamming = true;
 			canSelect = false;
 			FlxG.sound.music.stop();

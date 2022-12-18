@@ -37,6 +37,7 @@ class Paths
 		'custom_events',
 		'custom_notetypes',
 		'data',
+		'dialogue',
 		'songs',
 		'music',
 		'sounds',
@@ -326,7 +327,11 @@ class Paths
 	}
 
 	inline static public function formatToSongPath(path:String) {
-		return path.toLowerCase().replace(' ', '-');
+		var invalidChars = ~/[~&\\;:<>#]/;
+		var hideChars = ~/[.,'"%?!]/;
+
+		var path = invalidChars.split(path.replace(' ', '-')).join("-");
+		return hideChars.split(path).join("").toLowerCase();
 	}
 
 	// completely rewritten asset loading? fuck!

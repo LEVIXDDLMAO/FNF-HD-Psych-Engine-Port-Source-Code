@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				72,
-				-47
+				73,
+				-44
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -101,8 +101,8 @@
 		},
 		{
 			"offsets": [
-				72,
-				-46
+				74,
+				-44
 			],
 			"loop": false,
 			"fps": 24,

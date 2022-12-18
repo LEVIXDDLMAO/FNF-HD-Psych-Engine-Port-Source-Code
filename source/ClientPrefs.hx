@@ -14,14 +14,16 @@ class ClientPrefs {
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
+	public static var shaders:Bool = true;
+	public static var screenShake:Bool = true;
 	public static var HDIcons:String = 'New Version';
 	public static var OldHDbg:Bool = false;
 	public static var opponentStrums:Bool = true;
+	public static var lowSprites:Bool = false;
 	public static var disableDodgeSound:Bool = false;
-	public static var sweatShit:Bool = false;
 	public static var framerate:Int = 60;
 	public static var impEvent:String = 'Only In Milf';
-	public static var poleSpawn:Bool = true;
+	public static var poleSpawn:Bool = false;
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
@@ -40,6 +42,10 @@ class ClientPrefs {
 	public static var hitsoundVolume:Float = 0;
 	public static var pauseMusic:String = 'Tea Time';
 	public static var checkForUpdates:Bool = true;
+	public static var comboStacking = true;
+	public static var fullscreen = false;
+	//public static var showWarningScreen:Bool = true;
+	//public static var sweatShit:Bool = false;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -110,14 +116,18 @@ class ClientPrefs {
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
 		FlxG.save.data.lowQuality = lowQuality;
+		FlxG.save.data.shaders = shaders;
+		FlxG.save.data.screenShake = screenShake;
 		FlxG.save.data.opponentStrums = opponentStrums;
 		FlxG.save.data.HDIcons = HDIcons;
 		FlxG.save.data.OldHDbg = OldHDbg;
+		FlxG.save.data.lowSprites = lowSprites;
 		FlxG.save.data.disableDodgeSound = disableDodgeSound;
 		FlxG.save.data.impEvent = impEvent;
 		FlxG.save.data.poleSpawn = poleSpawn;
-		FlxG.save.data.sweatShit = sweatShit;
 		FlxG.save.data.framerate = framerate;
+		//FlxG.save.data.showWarningScreen = showWarningScreen;
+		//FlxG.save.data.sweatShit = sweatShit;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
 		FlxG.save.data.camZooms = camZooms;
@@ -146,11 +156,13 @@ class ClientPrefs {
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.pauseMusic = pauseMusic;
 		FlxG.save.data.checkForUpdates = checkForUpdates;
+		FlxG.save.data.comboStacking = comboStacking;
+		FlxG.save.data.fullscreen = fullscreen;
 	
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
-		save.bind('controls_v2', 'ninjamuffin99'); //Placing this in a separate save so that it can be manually deleted without removing your Score and stuff
+		save.bind('controls_v2' #if (flixel < "5.0.0"), 'ninjamuffin99' #end); //Placing this in a separate save so that it can be manually deleted without removing your Score and stuff
 		save.data.customControls = keyBinds;
 		save.flush();
 		FlxG.log.add("Settings saved!");
@@ -184,6 +196,15 @@ class ClientPrefs {
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;
 		}
+		if(FlxG.save.data.shaders != null) {
+			shaders = FlxG.save.data.shaders;
+		}
+		if(FlxG.save.data.screenShake != null) {
+			screenShake = FlxG.save.data.screenShake;
+		}
+		if(FlxG.save.data.lowSprites != null) {
+			lowSprites = FlxG.save.data.lowSprites;
+		}
 		if(FlxG.save.data.disableDodgeSound != null) {
 			disableDodgeSound = FlxG.save.data.disableDodgeSound;
 		}
@@ -199,9 +220,20 @@ class ClientPrefs {
 		if(FlxG.save.data.OldHDbg != null) {
 			OldHDbg = FlxG.save.data.OldHDbg;
 		}
+		/*if(FlxG.save.data.showWarningScreen != null) {
+			showWarningScreen = FlxG.save.data.showWarningScreen;
+		}
 		if(FlxG.save.data.sweatShit != null) {
 			sweatShit = FlxG.save.data.sweatShit;
 		}
+		if(FlxG.save.data.fullscreen != null) {
+			fullscreen = FlxG.save.data.fullscreen;
+			if(fullscreen) {
+				Main.startFullscreen = true;
+			} else {
+				Main.startFullscreen = false;
+			}
+		}*/
 		if(FlxG.save.data.framerate != null) {
 			framerate = FlxG.save.data.framerate;
 			if(framerate > FlxG.drawFramerate) {
@@ -254,7 +286,6 @@ class ClientPrefs {
 		if(FlxG.save.data.comboOffset != null) {
 			comboOffset = FlxG.save.data.comboOffset;
 		}
-		
 		if(FlxG.save.data.ratingOffset != null) {
 			ratingOffset = FlxG.save.data.ratingOffset;
 		}
@@ -279,10 +310,6 @@ class ClientPrefs {
 		if(FlxG.save.data.pauseMusic != null) {
 			pauseMusic = FlxG.save.data.pauseMusic;
 		}
-		if (FlxG.save.data.checkForUpdates != null)
-		{
-			checkForUpdates = FlxG.save.data.checkForUpdates;
-		}
 		if(FlxG.save.data.gameplaySettings != null)
 		{
 			var savedMap:Map<String, Dynamic> = FlxG.save.data.gameplaySettings;
@@ -301,9 +328,15 @@ class ClientPrefs {
 		{
 			FlxG.sound.muted = FlxG.save.data.mute;
 		}
+		if (FlxG.save.data.checkForUpdates != null)
+		{
+			checkForUpdates = FlxG.save.data.checkForUpdates;
+		}
+		if (FlxG.save.data.comboStacking != null)
+			comboStacking = FlxG.save.data.comboStacking;
 
 		var save:FlxSave = new FlxSave();
-		save.bind('controls_v2', 'ninjamuffin99');
+		save.bind('controls_v2' #if (flixel < "5.0.0"), 'ninjamuffin99' #end);
 		if(save != null && save.data.customControls != null) {
 			var loadedControls:Map<String, Array<FlxKey>> = save.data.customControls;
 			for (control => keys in loadedControls) {

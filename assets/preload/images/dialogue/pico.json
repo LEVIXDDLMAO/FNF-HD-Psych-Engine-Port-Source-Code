@@ -1,193 +1,193 @@
 {
+	"dialogue_pos": "left",
 	"position": [
 		-430,
-		-290
+		-300
 	],
-	"dialogue_pos": "left",
-	"scale": 0.5,
-	"image": "pico",
+	"scale": 0.55,
 	"animations": [
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "default",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "pico default.png",
-			"idle_name": "pico default.png"
+			"idle_name": "pico default.png",
+			"loop_name": "pico default.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				10,
 				-10
 			],
 			"anim": "angry",
-			"idle_offsets": [
+			"loop_offsets": [
 				10,
 				-10
 			],
-			"loop_name": "pico angry.png",
-			"idle_name": "pico angry.png"
+			"idle_name": "pico angry.png",
+			"loop_name": "pico angry.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				40,
 				0
 			],
 			"anim": "blush",
-			"idle_offsets": [
+			"loop_offsets": [
 				40,
 				0
 			],
-			"loop_name": "pico blush.png",
-			"idle_name": "pico blush.png"
+			"idle_name": "pico blush.png",
+			"loop_name": "pico blush.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				8,
 				-1
 			],
 			"anim": "choke",
-			"idle_offsets": [
+			"loop_offsets": [
 				8,
 				-1
 			],
-			"loop_name": "pico choke.png",
-			"idle_name": "pico choke.png"
+			"idle_name": "pico choke.png",
+			"loop_name": "pico choke.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				8,
 				-1
 			],
 			"anim": "disappearing",
-			"idle_offsets": [
+			"loop_offsets": [
 				8,
 				-1
 			],
-			"loop_name": "pico disappearing.png",
-			"idle_name": "pico disappearing.png"
+			"idle_name": "pico disappearing.png",
+			"loop_name": "pico disappearing.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "furious",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "pico furious.png",
-			"idle_name": "pico furious.png"
+			"idle_name": "pico furious.png",
+			"loop_name": "pico furious.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "furious2",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "pico furious 2.png",
-			"idle_name": "pico furious 2.png"
+			"idle_name": "pico furious 2.png",
+			"loop_name": "pico furious 2.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				-5,
 				0
 			],
 			"anim": "gloom",
-			"idle_offsets": [
+			"loop_offsets": [
 				-5,
 				0
 			],
-			"loop_name": "pico gloom.png",
-			"idle_name": "pico gloom.png"
+			"idle_name": "pico gloom.png",
+			"loop_name": "pico gloom.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				10
 			],
 			"anim": "grimace",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				10
 			],
-			"loop_name": "pico grimace.png",
-			"idle_name": "pico grimace.png"
+			"idle_name": "pico grimace.png",
+			"loop_name": "pico grimace.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				10,
 				-10
 			],
 			"anim": "happy",
-			"idle_offsets": [
+			"loop_offsets": [
 				10,
 				-10
 			],
-			"loop_name": "pico happy.png",
-			"idle_name": "pico happy.png"
+			"idle_name": "pico happy.png",
+			"loop_name": "pico happy.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "bruh",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "pico bruh.png",
-			"idle_name": "pico bruh.png"
+			"idle_name": "pico bruh.png",
+			"loop_name": "pico bruh.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				10,
 				-10
 			],
 			"anim": "scoff",
-			"idle_offsets": [
+			"loop_offsets": [
 				10,
 				-10
 			],
-			"loop_name": "pico scoff.png",
-			"idle_name": "pico scoff.png"
+			"idle_name": "pico scoff.png",
+			"loop_name": "pico scoff.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				30,
 				16
 			],
 			"anim": "shout",
-			"idle_offsets": [
+			"loop_offsets": [
 				30,
 				16
 			],
-			"loop_name": "pico shout.png",
-			"idle_name": "pico shout.png"
+			"idle_name": "pico shout.png",
+			"loop_name": "pico shout.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				40,
 				0
 			],
 			"anim": "smile",
-			"idle_offsets": [
+			"loop_offsets": [
 				40,
 				0
 			],
-			"loop_name": "pico smile.png",
-			"idle_name": "pico smile.png"
+			"idle_name": "pico smile.png",
+			"loop_name": "pico smile.png"
 		}
-	]
+	],
+	"image": "pico"
 }

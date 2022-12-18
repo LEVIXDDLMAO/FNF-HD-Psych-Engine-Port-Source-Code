@@ -3,7 +3,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "noChar",
+			"portrait": "noCharLeft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "Is it really that important? Nobody gives a shit about this kid! I'm eight days into a 2-week notice, I'm tired of this shit."
@@ -11,7 +11,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "noChar",
+			"portrait": "noCharLeft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "An anonymous tip sent into the newsroom just moments ago has identified the short, blue-haired youth accompanying the Dearest family members and associates atop the speeding limos as Boyfriend.XML"
@@ -19,13 +19,13 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "noChar",
+			"portrait": "noCharLeft",
 			"boxState": "normal",
 			"expression": "default",
 			"text": "the up-and-coming rapper who made headlines after defeating Mearest's husband, ex-rockstar Daddy Dearest, in a series of performance arts showdowns."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -33,7 +33,7 @@
 			"text": "OKAY! That's enough Mrs. Mearest! I've had enough."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -41,7 +41,7 @@
 			"text": "What's the matter boo?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -49,7 +49,7 @@
 			"text": "Are you losin' focus from seeing me move so gracefully?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -57,7 +57,7 @@
 			"text": "Bet you got so many nasty thoughts in yer head goin on..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -65,7 +65,7 @@
 			"text": "You want me so bad...don't you??"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "(That's it...I think he's gone.)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -81,7 +81,7 @@
 			"text": "(There's no way he doesn't want her after that. It always works on horny men.)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -89,7 +89,7 @@
 			"text": "(B-but, he can't just go on and lust for her! She just wants to snag his soul!!)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -97,7 +97,7 @@
 			"text": "(If you were to leave me, I atleast want the ability to find solace in your assured safety...)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -105,7 +105,7 @@
 			"text": "(Damn it. He's going to leave me now, and it's all cuz of that stupid argument. It's all my fault.)"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "Ugh, just shut the FUCK UP!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -121,7 +121,7 @@
 			"text": "...wuh??"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "angry",
@@ -129,7 +129,7 @@
 			"text": "EXCUSE ME!?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -137,7 +137,7 @@
 			"text": "I'm sick of hearing you speak! You're fuckin' weird!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "The way you talk to me makes me feel so infantilized."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -153,7 +153,7 @@
 			"text": "And have you considered the fact you're speakin' outta turn about your own daughter?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -161,7 +161,7 @@
 			"text": "All just to impress ME, a random!?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -169,7 +169,7 @@
 			"text": "It makes me so furious, how could you ever say some foul shit like that about her..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -178,7 +178,7 @@
 			"text": "I love your daughter. I ONLY love your daughter."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -186,7 +186,7 @@
 			"text": "I won't lie, I do find you attractive. You're very pretty, and your voice is nice, and you smell good..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -194,7 +194,7 @@
 			"text": "But I wouldn't even be fawnin' over you if I wasn't so mad at GF!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -202,7 +202,7 @@
 			"text": "I...I just got really hurt when you told me you weren't clingy..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -210,7 +210,7 @@
 			"text": "...and that you only stuck around so much to keep me from dying."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -218,7 +218,7 @@
 			"text": "And the Pico thing, I just feel really insecure about him always bein' able to be with you..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -226,7 +226,7 @@
 			"text": "It should be me!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -234,7 +234,7 @@
 			"text": "I only told you that to try and reassure you that I wouldn't let anything hurt you..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -242,7 +242,7 @@
 			"text": "And that I'm your #1 cheer-leader...I'm sorry that it came off the way it did."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -250,7 +250,7 @@
 			"text": "I have so much faith in you because you're just...you're just so cool, okay?!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -258,7 +258,7 @@
 			"text": "It's one thing to be a powerful demon with a stupid amount of confidence,"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -266,7 +266,7 @@
 			"text": "but it's another to be a mere mortal with the feeling of invincibility!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -274,7 +274,7 @@
 			"text": "That's you, BF!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -282,7 +282,7 @@
 			"text": "No matter what's been thrown at you, you've pulled through with confidence."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -290,7 +290,7 @@
 			"text": "Whether it's having to face my demon parents, literal monster kids, and being shot at..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -298,7 +298,7 @@
 			"text": "You've shown nothing but resilience."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -306,7 +306,7 @@
 			"text": "I wish i was mortal so I could know how it feels to have your life on the line everyday you wake up."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -314,7 +314,7 @@
 			"text": "I love you, BF, I feel like if we were to separate we'd actually die. I NEED you."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -322,7 +322,7 @@
 			"text": "You feel it too then...this feeling, like our souls are inseparable in a sense?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -330,7 +330,7 @@
 			"text": "It's real fitting for how corny we are."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -338,7 +338,7 @@
 			"text": "I'm real sorry too, GF. You got no idea how greatful I am for you."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -346,7 +346,7 @@
 			"text": "I'm glad we can get this shit out of the way."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -354,7 +354,7 @@
 			"text": "Oh...oh this feeling..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -362,7 +362,7 @@
 			"text": "HUH--"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -370,7 +370,7 @@
 			"text": "Oh dear God, Daddy ain't made me feel like this in sooo long..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -378,7 +378,7 @@
 			"text": "Momma??"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -386,7 +386,7 @@
 			"text": "But YOU, BF...you're a whole different breed."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -394,7 +394,7 @@
 			"text": "A man who knows how to put a bitch like me in her place..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -402,7 +402,7 @@
 			"text": "AND shows love to his own girl after some tramp dissed her..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -410,7 +410,7 @@
 			"text": "IT'S THE BARE MINIMUM DOLL, BUT...YOU'RE JUST TOO PERFECT!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -418,7 +418,7 @@
 			"text": "I'll tell you this, BF...If you lose this, your soul is mine for all eternity."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -426,7 +426,7 @@
 			"text": "You'll never see GF ever again, I'll use you for whatever the hell I want."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -442,7 +442,7 @@
 			"text": "Wait, we were somethin' before bein' demon?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -450,7 +450,7 @@
 			"text": "You can't refuse this offer, either, or I'll just eviscerate you right here and now!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -458,7 +458,7 @@
 			"text": "Shit, GF...this might not end too well."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -466,7 +466,7 @@
 			"text": "Now that's not like you, to just give in so quickly."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -483,7 +483,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -515,7 +515,7 @@
 			"text": "Let's just hope she won't use the Beautiful Evisceratin' Agony Machine..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -523,7 +523,7 @@
 			"text": "By the way, baby, I don't want this to be too borin'..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -531,7 +531,7 @@
 			"text": "However, I wanna be the one who takes you to your grave...I can't let wreckless drivin' do it!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -539,7 +539,7 @@
 			"text": "So dance, dance for me baby!! Maintain your balance, just like my imps..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",

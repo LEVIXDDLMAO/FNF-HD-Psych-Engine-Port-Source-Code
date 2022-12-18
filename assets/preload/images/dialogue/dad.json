@@ -1,128 +1,129 @@
 {
+	"dialogue_pos": "left",
 	"position": [
 		-591,
-		-580
+		-590
 	],
-	"dialogue_pos": "left",
-	"scale": 0.4,
-	"image": "dad",
+	"no_antialiasing": false,
+	"scale": 0.45,
 	"animations": [
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				1,
 				-10
 			],
 			"anim": "default",
-			"idle_offsets": [
+			"loop_offsets": [
 				1,
 				-10
 			],
-			"loop_name": "dad default.png",
-			"idle_name": "dad default.png"
+			"idle_name": "dad default.png",
+			"loop_name": "dad default.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				1,
 				-11
 			],
 			"anim": "bleed",
-			"idle_offsets": [
+			"loop_offsets": [
 				1,
 				-11
 			],
-			"loop_name": "dad bleed 1.png",
-			"idle_name": "dad bleed 1.png"
+			"idle_name": "dad bleed 1.png",
+			"loop_name": "dad bleed 1.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				1,
 				-11
 			],
 			"anim": "bleed2",
-			"idle_offsets": [
+			"loop_offsets": [
 				1,
 				-11
 			],
-			"loop_name": "dad bleed 2.png",
-			"idle_name": "dad bleed 2.png"
+			"idle_name": "dad bleed 2.png",
+			"loop_name": "dad bleed 2.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				1,
 				-10
 			],
 			"anim": "limit",
-			"idle_offsets": [
+			"loop_offsets": [
 				1,
 				-10
 			],
-			"loop_name": "dad limit.png",
-			"idle_name": "dad limit.png"
+			"idle_name": "dad limit.png",
+			"loop_name": "dad limit.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				1,
 				-1
 			],
 			"anim": "mic",
-			"idle_offsets": [
+			"loop_offsets": [
 				1,
 				-1
 			],
-			"loop_name": "dad mic.png",
-			"idle_name": "dad mic.png"
+			"idle_name": "dad mic.png",
+			"loop_name": "dad mic.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				11,
 				11
 			],
 			"anim": "angry",
-			"idle_offsets": [
+			"loop_offsets": [
 				11,
 				11
 			],
-			"loop_name": "dad angry.png",
-			"idle_name": "dad angry.png"
+			"idle_name": "dad angry.png",
+			"loop_name": "dad angry.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				50,
 				-10
 			],
 			"anim": "default2",
-			"idle_offsets": [
+			"loop_offsets": [
 				50,
 				-10
 			],
-			"loop_name": "dad default 2.png",
-			"idle_name": "dad default 2.png"
+			"idle_name": "dad default 2.png",
+			"loop_name": "dad default 2.png"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				50,
 				-10
 			],
 			"anim": "shock",
-			"idle_offsets": [
-				50,
-				-10
-			],
-			"loop_name": "dad shock.png",
-			"idle_name": "dad shock.png"
-		},
-		{
 			"loop_offsets": [
 				50,
 				-10
 			],
-			"anim": "smile",
+			"idle_name": "dad shock.png",
+			"loop_name": "dad shock.png"
+		},
+		{
 			"idle_offsets": [
 				50,
 				-10
 			],
-			"loop_name": "dad smile.png",
-			"idle_name": "dad smile.png"
+			"anim": "smile",
+			"loop_offsets": [
+				50,
+				-10
+			],
+			"idle_name": "dad smile.png",
+			"loop_name": "dad smile.png"
 		}
-	]
+	],
+	"image": "dad"
 }

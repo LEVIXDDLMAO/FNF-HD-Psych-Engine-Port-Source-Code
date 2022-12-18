@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "giddy",
+			"text": "Yooo that was really good!"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "Finally something that you liked!"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "You want another more similar to that one?"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pant",
+			"text": "Nah sorry, i'm really tired."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Yeah, I knew that you can't handle more than 3 songs."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "giggle",
+			"text": "Carol, I'm pretty sure that you're tired too."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "funny",
+			"text": "Hehe, true, bestie."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "question",
+			"text": "Also!"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "letsbattle",
+			"text": "Don't forget to check the Freeplay."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "bye",
+			"text": "See ya!"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "questionMark",
+			"text": "What did she mean?"
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "think",
+			"text": "I don't know exactly."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "reassure",
+			"text": "We should go to eat something."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "Uhhh I don't know girl I really want to eat something..."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "Yeah! Also I need to buy some cock rings again."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "blush",
+			"text": "That's not how their are named..."
+		}
+	]
+}

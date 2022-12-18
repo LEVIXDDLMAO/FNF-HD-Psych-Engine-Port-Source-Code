@@ -5,10 +5,10 @@
 				-5,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "BF idle dance0"
 		},
 		{
@@ -16,21 +16,21 @@
 				-25,
 				-45
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE DOWN0"
 		},
 		{
 			"offsets": [
-				-50,
-				76
+				-47,
+				67
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE UP0"
 		},
 		{
@@ -38,10 +38,10 @@
 				-59,
 				3
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE RIGHT0"
 		},
 		{
@@ -49,62 +49,62 @@
 				-26,
 				-1
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE LEFT0"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-24,
-				-48
+				-52
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
 			"loop": false,
-			"name": "BF NOTE DOWN MISS"
+			"offsets": [
+				-57,
+				-2
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-2
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
 		},
 		{
 			"offsets": [
-				-42,
-				62
+				-47,
+				67
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUPmiss",
-			"loop": false,
+			"indices": [],
 			"name": "BF NOTE UP MISS"
-		},
-		{
-			"offsets": [
-				-52,
-				-10
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"loop": false,
-			"name": "BF NOTE RIGHT MISS"
-		},
-		{
-			"offsets": [
-				4,
-				0
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFTmiss",
-			"loop": false,
-			"name": "BF NOTE LEFT MISS"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/bfDateOld",
 	"position": [
-		10,
-		380
+		-10,
+		355
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -114,9 +114,9 @@
 		209
 	],
 	"camera_position": [
-		30,
-		-30
+		21,
+		14
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.9
 }

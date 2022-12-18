@@ -14,7 +14,7 @@
 			"text": "This view's so pretty, almost as pretty as you...",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		},
 		{
@@ -23,7 +23,7 @@
 			"text": "You're awfully corny!! I like it.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -32,7 +32,7 @@
 			"text": "Also, your hand's really low.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -41,7 +41,7 @@
 			"text": "Oh shit, my bad--",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		},
 		{
@@ -50,7 +50,7 @@
 			"text": "Move it lower.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -59,7 +59,7 @@
 			"text": "Ohh it's like that huh?! Well come here babe--",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		},
 		{
@@ -76,7 +76,7 @@
 			"text": "I knew i'd find you here you lil shit.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -85,7 +85,7 @@
 			"text": "Pico? Of all people...",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		},
 		{
@@ -94,7 +94,7 @@
 			"text": "Huh!? Who are you 3?! What's going on, how does BF know you?",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -103,7 +103,7 @@
 			"text": "What did I do now man?!",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		},
 		{
@@ -112,7 +112,7 @@
 			"text": "Nothin' to me, but pops coughed up the dough, and you know me, heheh.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -121,7 +121,7 @@
 			"text": "Bringing your goons along with you huh?",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -130,7 +130,7 @@
 			"text": "You were one letter away from gettin' lit up like a suburb in December.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "darnellText",
+			"sound": "dialogue/darnellText",
 			"portrait": "darnell"
 		},
 		{
@@ -139,7 +139,7 @@
 			"text": "AYE, YOU KNOW WHO I AM, FATASS SKANK?!",
 			"boxState": "angry",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -148,7 +148,7 @@
 			"text": "I bring my boys with me wherever I go, no matter the difficulty of the task!",
 			"boxState": "angry",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -157,7 +157,7 @@
 			"text": "Boy and girl!",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "neneText",
+			"sound": "dialogue/neneText",
 			"portrait": "nene"
 		},
 		{
@@ -166,7 +166,7 @@
 			"text": "Fuck up.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -175,7 +175,7 @@
 			"text": "Okay! ^_^",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "neneText",
+			"sound": "dialogue/neneText",
 			"portrait": "nene"
 		},
 		{
@@ -184,7 +184,7 @@
 			"text": "Anyway, as the realest muhfucka on the rooftop was sayin'...",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -193,7 +193,7 @@
 			"text": "Jobs like this have been scarce, so lemme play with my food a little.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -202,7 +202,7 @@
 			"text": "Hey fatty, lay down a beat! If we jam, y'all live...",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -211,7 +211,7 @@
 			"text": "And if it's trash...you gettin' merc'd.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{

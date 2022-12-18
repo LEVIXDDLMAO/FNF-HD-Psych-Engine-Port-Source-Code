@@ -3,7 +3,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -12,7 +12,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -21,7 +21,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -30,7 +30,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -39,7 +39,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -48,7 +48,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -57,7 +57,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "angry",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -66,7 +66,7 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
@@ -75,14 +75,14 @@
 		{
 			"sound": "e",
 			"speed": 0.05,
-			"portrait": "nochar",
+			"portrait": "nocharleft",
 			"boxState": "normal",
 			"bg": "defaultLine.cutsceneImage",
 			"expression": "default",
 			"text": "Was I supposed to say that? No? I don't give a shit, dude."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -91,7 +91,7 @@
 			"text": "Not bad, boy...not bad at all."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -100,7 +100,7 @@
 			"text": "This shit...this shit is too much!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -109,7 +109,7 @@
 			"text": "I see where those abs come from now..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -118,7 +118,7 @@
 			"text": "What're you starin' so hard for, boy? You want me??"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -127,7 +127,7 @@
 			"text": "Tch!! As if."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -136,7 +136,7 @@
 			"text": "You're weird as hell mom! Why is it so hard for you and dad to be normal?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "Crashing my dates,"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -154,7 +154,7 @@
 			"text": "trapping people into televisions,"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -163,7 +163,7 @@
 			"text": "causing someone to smoke themselves from the sheer dread of having to deal with you guys??"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -190,7 +190,7 @@
 			"text": "Your parents know what's best for ya...just chill on it."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -199,7 +199,7 @@
 			"text": "And bringing your simps along!? You're the worst."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -217,7 +217,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -226,7 +226,7 @@
 			"text": "Tell me, BF, what is it that you like the most about me?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -235,7 +235,7 @@
 			"text": "Is it...my scent? The way? My beautiful, long, curly hair...?"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -244,7 +244,7 @@
 			"text": "Or perhaps...somethin' else has your eye?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -253,7 +253,7 @@
 			"text": "Can we go to the next song please?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -262,7 +262,7 @@
 			"text": "Why are you dodging the question you manwhore?!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -271,7 +271,7 @@
 			"text": "(I'm losing him. It's so quick but, I'm already losing him.)"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -280,7 +280,7 @@
 			"text": "(It can't end like this. BF's gotta remember what he's doing this for...)"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -289,7 +289,7 @@
 			"text": "Remember, BF. There's a huge difference between a woman, and a little girl."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",

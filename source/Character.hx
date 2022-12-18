@@ -66,7 +66,10 @@ class Character extends FlxSprite
 	public var stunned:Bool = false;
 	public var singDuration:Float = 4; //Multiplier of how long a character holds the sing pose
 	public var idleSuffix:String = '';
+	public var isStressed:String = '';
+	public var isLow:String = '';
 	public var danceIdle:Bool = false; //Character use "danceLeft" and "danceRight" instead of "idle"
+	public var skipDance:Bool = false;
 	public var boyfriend:Boyfriend = null;
 	
 
@@ -78,6 +81,7 @@ class Character extends FlxSprite
 
 	public var hasMissAnimations:Bool = false;
 	public var hasStressedAnimations:Bool = false;
+	public var hasStressedIdleAnimations:Bool = false;
 
 	//Used on Character Editor
 	public var imageFile:String = '';
@@ -96,6 +100,11 @@ class Character extends FlxSprite
 		#else
 		animOffsets = new Map<String, Array<Dynamic>>();
 		#end
+		if(ClientPrefs.lowSprites) {
+			isLow = '-low';
+		} else {
+			isLow = '';
+		}
 		curCharacter = character;
 		this.isPlayer = isPlayer;
 		antialiasing = ClientPrefs.globalAntialiasing;
@@ -107,9 +116,9 @@ class Character extends FlxSprite
 			default:
 				var characterPath:String = null;
 				if(!ClientPrefs.OldHDbg) {
-					characterPath = 'characters/' + curCharacter + '.json';
+					characterPath = 'characters/' + curCharacter + isLow + '.json';
 				} else {
-					characterPath = 'characters old/' + curCharacter + '.json';
+					characterPath = 'characters old/' + curCharacter + isLow + '.json';
 				}
 
 				#if MODS_ALLOWED
@@ -125,9 +134,9 @@ class Character extends FlxSprite
 				#end
 				{
 					if(!ClientPrefs.OldHDbg){
-						path = Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER +'.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+						path = Paths.getPreloadPath('characters/' + DEFAULT_CHARACTER + isLow + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
 					} else {
-						path = Paths.getPreloadPath('characters old/' + DEFAULT_CHARACTER +'.json'); //If a character couldn't be found, change him to BF just to prevent a crash
+						path = Paths.getPreloadPath('characters old/' + DEFAULT_CHARACTER + isLow + '.json'); //If a character couldn't be found, change him to BF just to prevent a crash
 					}
 				}
 
@@ -236,7 +245,8 @@ class Character extends FlxSprite
 		originalFlipX = flipX;
 
 		if(animOffsets.exists('singLEFTmiss') || animOffsets.exists('singDOWNmiss') || animOffsets.exists('singUPmiss') || animOffsets.exists('singRIGHTmiss')) hasMissAnimations = true;
-		if(animOffsets.exists('danceLeft-stressed') || animOffsets.exists('danceRight-stressed') || animOffsets.exists('idle-stressed') || animOffsets.exists('singLEFT-stressed') || animOffsets.exists('singDOWN-stressed') || animOffsets.exists('singUP-stressed') || animOffsets.exists('singRIGHT-stressed')) hasStressedAnimations = true;
+		if(animOffsets.exists('singLEFT-stressed') || animOffsets.exists('singDOWN-stressed') || animOffsets.exists('singUP-stressed') || animOffsets.exists('singRIGHT-stressed')) hasStressedAnimations = true;
+		if(animOffsets.exists('danceLeft-stressed') || animOffsets.exists('danceRight-stressed') || animOffsets.exists('idle-stressed')) hasStressedIdleAnimations = true;
 		recalculateDanceIdle();
 		dance();
 
@@ -263,6 +273,14 @@ class Character extends FlxSprite
 					animation.getByName('singLEFTmiss').frames = oldMiss;
 				}
 			}*/
+		}
+
+		switch(curCharacter)
+		{
+			case 'pico-speaker':
+				skipDance = true;
+				loadMappedAnims();
+				playAnim("shoot1");
 		}
 	}
 
@@ -296,7 +314,7 @@ class Character extends FlxSprite
 		{
 			if(heyTimer > 0)
 			{
-				heyTimer -= elapsed;
+				heyTimer -= elapsed * PlayState.instance.playbackRate;
 				if(heyTimer <= 0)
 				{
 					if(specialAnim && animation.curAnim.name == 'hey' || animation.curAnim.name == 'cheer')
@@ -310,6 +328,21 @@ class Character extends FlxSprite
 			{
 				specialAnim = false;
 				dance();
+			}
+
+			switch(curCharacter)
+			{
+				case 'pico-speaker':
+					if(animationNotes.length > 0 && Conductor.songPosition > animationNotes[0][0])
+					{
+						var noteData:Int = 1;
+						if(animationNotes[0][1] > 2) noteData = 3;
+
+						noteData += FlxG.random.int(0, 1);
+						playAnim('shoot' + noteData, true);
+						animationNotes.shift();
+					}
+					if(animation.curAnim.finished) playAnim(animation.curAnim.name, false, false, animation.curAnim.frames.length - 3);
 			}
 
 			if (!isPlayer)
@@ -341,57 +374,33 @@ class Character extends FlxSprite
 	 */
 	public function dance()
 	{
-		if (!debugMode && !specialAnim)
+		if (!debugMode && !skipDance && !specialAnim)
 		{
 			if(danceIdle)
 			{
+				if (hasStressedIdleAnimations) {
+					if (PlayState.fuckCval)
+						isStressed = '-stressed';
+					else
+						isStressed = '';
+				}
+
 				danced = !danced;
 
 				if (danced)
-					playAnim('danceRight' + idleSuffix);
+					playAnim('danceRight' + isStressed + idleSuffix);
 				else
-					playAnim('danceLeft' + idleSuffix);
-			}
-			else if(animation.getByName('idle' + idleSuffix) != null) {
-					playAnim('idle' + idleSuffix);
-			}
-			switch (curCharacter)
+					playAnim('danceLeft' + isStressed + idleSuffix);
+			} else if(animation.getByName('idle' + isStressed + idleSuffix) != null)
 			{
-				case 'bf':
-					var suffix:String = "";
+				if (hasStressedIdleAnimations) {
 					if (PlayState.fuckCval)
-						suffix = '-stressed';
+						isStressed = '-stressed';
 					else
-						suffix = '';
-					playAnim('idle' + suffix + idleSuffix);
-				case 'bf-pico':
-					var suffix:String = "";
-					if (PlayState.fuckCval)
-						suffix = '-stressed';
-					else
-						suffix = '';
-					playAnim('idle' + suffix + idleSuffix);
-				case 'bf-hellchart':
-					var suffix:String = "";
-					if (PlayState.fuckCval)
-						suffix = '-stressed';
-					else
-						suffix = '';
-					playAnim('idle' + suffix + idleSuffix);
-				case 'bf-car':
-					var suffix:String = "";
-					if (PlayState.fuckCval)
-						suffix = '-stressed';
-					else
-						suffix = '';
-					playAnim('idle' + suffix + idleSuffix);
-				case 'bf-christmas':
-					var suffix:String = "";
-					if (PlayState.fuckCval)
-						suffix = '-stressed';
-					else
-						suffix = '';
-					playAnim('idle' + suffix + idleSuffix);
+						isStressed = '';
+				}
+
+				playAnim('idle' + isStressed + idleSuffix);
 			}
 		}
 	}
@@ -427,11 +436,35 @@ class Character extends FlxSprite
 		}
 	}
 
+	function loadMappedAnims():Void
+	{
+		var noteData:Array<SwagSection> = Song.loadFromJson('picospeaker', Paths.formatToSongPath(PlayState.SONG.song)).notes;
+		for (section in noteData) {
+			for (songNotes in section.sectionNotes) {
+				animationNotes.push(songNotes);
+			}
+		}
+		TankmenBG.animationNotes = animationNotes;
+		animationNotes.sort(sortAnims);
+	}
+
+	function sortAnims(Obj1:Array<Dynamic>, Obj2:Array<Dynamic>):Int
+	{
+		return FlxSort.byValues(FlxSort.ASCENDING, Obj1[0], Obj2[0]);
+	}
+
 	public var danceEveryNumBeats:Int = 2;
 	private var settingCharacterUp:Bool = true;
 	public function recalculateDanceIdle() {
 		var lastDanceIdle:Bool = danceIdle;
-		danceIdle = (animation.getByName('danceLeft' + idleSuffix) != null && animation.getByName('danceRight' + idleSuffix) != null);
+		danceIdle = (animation.getByName('danceLeft' + isStressed + idleSuffix) != null && animation.getByName('danceRight' + isStressed + idleSuffix) != null);
+
+		if(hasStressedIdleAnimations) {
+			if (PlayState.fuckCval)
+				isStressed = '-stressed';
+			else
+				isStressed = '';
+		}
 
 		if(settingCharacterUp)
 		{

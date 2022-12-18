@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -10,7 +10,7 @@
 			"text": "Raw as fuck! I totally aced that!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -19,7 +19,7 @@
 			"text": "It was hard as shit, but I aced it!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -28,7 +28,7 @@
 			"text": "I...almost died many times during it, but I'm still kickin'!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -37,7 +37,7 @@
 			"text": "How you feelin' towards these little duders hon?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -46,7 +46,7 @@
 			"text": "They're cute and all, but I really think it's too scary here. We should leave."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -55,7 +55,7 @@
 			"text": "What, can't handle a little dark atmosphere?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -64,7 +64,7 @@
 			"text": "No, I can handle that and these two freaks of nature..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "If anything, it's the thunder for me."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -82,7 +82,7 @@
 			"text": "...I get it."
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -91,7 +91,7 @@
 			"text": "(S) Aw come on! Don't leave so soon, fren!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -100,7 +100,7 @@
 			"text": "(P) Espooky month barely even started!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -109,7 +109,7 @@
 			"text": "Spooky month?"
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -118,7 +118,7 @@
 			"text": "(S) You don't know 'bout espooky month!?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -127,7 +127,7 @@
 			"text": "No, please enlighten us!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -136,7 +136,7 @@
 			"text": "(P) Well it's...it's when you enjoy, ya know, spooky things!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "(P) Eating spooky candies, discovering spooky monsters..."
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -154,7 +154,7 @@
 			"text": "(S) And doing the spooky dance!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -163,7 +163,7 @@
 			"text": "Is that what you guys were doing while you were singing?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -172,7 +172,7 @@
 			"text": "I kinda wanna try it out too, honestly!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",

@@ -12,7 +12,7 @@
 			"expression": "default",
 			"text": "You know what?",
 			"boxState": "normal",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf"
 		},
@@ -20,7 +20,7 @@
 			"expression": "default",
 			"text": "That was a lot less scary than I imagined it would be.",
 			"boxState": "normal",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf"
 		},
@@ -28,7 +28,7 @@
 			"expression": "default",
 			"text": "Pfft, it was just baby-time music.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -36,7 +36,7 @@
 			"expression": "default",
 			"text": "I thought someone as puny as him would only be able to handle that.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -44,7 +44,7 @@
 			"expression": "default",
 			"text": "Now comes the real test. Yer gonna show me just how badly you want my baby girl.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -52,7 +52,7 @@
 			"expression": "surprised",
 			"text": "Oh no, dad please don't do something rash--",
 			"boxState": "normal",
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf"
 		},
@@ -60,7 +60,7 @@
 			"expression": "default",
 			"text": "Don't worry doll, this is all for practice.",
 			"boxState": "normal",
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf"
 		},
@@ -68,7 +68,7 @@
 			"expression": "default",
 			"text": "Hit me with anything geezer!",
 			"boxState": "angry",
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf"
 		},
@@ -76,7 +76,7 @@
 			"expression": "default",
 			"text": "Alright.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -84,7 +84,7 @@
 			"expression": "default",
 			"text": "You said you were a rapper, right?",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -92,7 +92,7 @@
 			"expression": "default",
 			"text": "Well I actually hung with and killed both Biggie and Tupac.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		},
@@ -100,7 +100,7 @@
 			"expression": "mic",
 			"text": "Lemme show you what they taught me before I made their lives forfeit.",
 			"boxState": "normal",
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad"
 		}

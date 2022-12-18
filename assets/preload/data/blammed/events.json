@@ -1,9 +1,9 @@
 {
 	"song": {
 		"speed": 2.7,
-		"stage": "philly-picoPlayer",
-		"player1": "pico-player-philly",
-		"player2": "bf-opponent-philly-pico",
+		"stage": "philly",
+		"player1": "bf-pico",
+		"player2": "pico",
 		"player3": null,
 		"events": [
 			[
@@ -331,8 +331,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"500"
+						"615",
+						"525"
 					],
 					[
 						"Set Property",
@@ -356,8 +356,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"470",
-						"500"
+						"595",
+						"525"
 					]
 				]
 			],
@@ -366,8 +366,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					],
 					[
 						"Add Camera Zoom",
@@ -381,8 +381,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"530",
-						"500"
+						"635",
+						"525"
 					]
 				]
 			],
@@ -401,8 +401,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					]
 				]
 			],
@@ -421,8 +421,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"470",
-						"500"
+						"595",
+						"525"
 					]
 				]
 			],
@@ -431,8 +431,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					]
 				]
 			],
@@ -441,8 +441,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"470"
+						"615",
+						"505"
 					],
 					[
 						"Add Camera Zoom",
@@ -461,8 +461,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					]
 				]
 			],
@@ -936,8 +936,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"500"
+						"615",
+						"525"
 					],
 					[
 						"Set Property",
@@ -1423,8 +1423,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"500",
-						"500"
+						"615",
+						"525"
 					]
 				]
 			],
@@ -1443,8 +1443,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"470",
-						"500"
+						"595",
+						"525"
 					]
 				]
 			],
@@ -1453,8 +1453,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					],
 					[
 						"Philly Glow",
@@ -1473,8 +1473,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"530",
-						"500"
+						"635",
+						"525"
 					]
 				]
 			],
@@ -1503,8 +1503,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					]
 				]
 			],
@@ -1513,8 +1513,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"470",
-						"500"
+						"595",
+						"525"
 					],
 					[
 						"Philly Glow",
@@ -1538,8 +1538,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					],
 					[
 						"Philly Glow",
@@ -1553,8 +1553,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"470"
+						"615",
+						"505"
 					]
 				]
 			],
@@ -1578,8 +1578,8 @@
 				[
 					[
 						"Camera Follow Pos",
-						"500",
-						"530"
+						"615",
+						"545"
 					],
 					[
 						"Philly Glow",
@@ -2153,8 +2153,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"500",
-						"500"
+						"615",
+						"525"
 					],
 					[
 						"Set Property",
@@ -2233,8 +2233,8 @@
 					],
 					[
 						"Camera Follow Pos",
-						"500",
-						"500"
+						"615",
+						"525"
 					],
 					[
 						"Screen Shake",
@@ -2267,7 +2267,7 @@
 		"notes": [],
 		"splashSkin": null,
 		"validScore": false,
-		"gfVersion": "gfPico2",
+		"gfVersion": "gf",
 		"bpm": 165,
 		"arrowSkin": null,
 		"needsVoices": true,

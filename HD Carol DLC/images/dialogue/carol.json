@@ -1,0 +1,219 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-190,
+		-320
+	],
+	"scale": 0.8,
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "default",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "carol idle0",
+			"idle_name": "carol idle0"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-40
+			],
+			"anim": "ayo",
+			"idle_offsets": [
+				0,
+				-40
+			],
+			"loop_name": "carol ayo",
+			"idle_name": "carol ayo"
+		},
+		{
+			"loop_offsets": [
+				-50,
+				-9
+			],
+			"anim": "angry",
+			"idle_offsets": [
+				-50,
+				-9
+			],
+			"loop_name": "carol angry",
+			"idle_name": "carol angry"
+		},
+		{
+			"loop_offsets": [
+				35,
+				34
+			],
+			"anim": "bye",
+			"idle_offsets": [
+				35,
+				34
+			],
+			"loop_name": "carol bye",
+			"idle_name": "carol bye"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "down",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "carol down",
+			"idle_name": "carol down"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-30
+			],
+			"anim": "funny",
+			"idle_offsets": [
+				0,
+				-30
+			],
+			"loop_name": "carol funny",
+			"idle_name": "carol funny"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-38
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				0,
+				-38
+			],
+			"loop_name": "carol happy",
+			"idle_name": "carol happy"
+		},
+		{
+			"loop_offsets": [
+				33,
+				26
+			],
+			"anim": "what",
+			"idle_offsets": [
+				33,
+				26
+			],
+			"loop_name": "carol a0",
+			"idle_name": "carol a0"
+		},
+		{
+			"loop_offsets": [
+				55,
+				63
+			],
+			"anim": "front",
+			"idle_offsets": [
+				55,
+				63
+			],
+			"loop_name": "carol idlefront0",
+			"idle_name": "carol idlefront0"
+		},
+		{
+			"loop_offsets": [
+				70,
+				0
+			],
+			"anim": "phone",
+			"idle_offsets": [
+				70,
+				0
+			],
+			"loop_name": "carol phone",
+			"idle_name": "carol phone"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-22
+			],
+			"anim": "question",
+			"idle_offsets": [
+				0,
+				-22
+			],
+			"loop_name": "carol question",
+			"idle_name": "carol question"
+		},
+		{
+			"loop_offsets": [
+				20,
+				50
+			],
+			"anim": "stressed",
+			"idle_offsets": [
+				20,
+				50
+			],
+			"loop_name": "carol stressed",
+			"idle_name": "carol stressed"
+		},
+		{
+			"loop_offsets": [
+				-30,
+				-20
+			],
+			"anim": "surprised",
+			"idle_offsets": [
+				-30,
+				-20
+			],
+			"loop_name": "carol surprised",
+			"idle_name": "carol surprised"
+		},
+		{
+			"loop_offsets": [
+				15,
+				-58
+			],
+			"anim": "worried",
+			"idle_offsets": [
+				15,
+				-58
+			],
+			"loop_name": "carol worried",
+			"idle_name": "carol worried"
+		},
+		{
+			"loop_offsets": [
+				30,
+				70
+			],
+			"anim": "youaredead",
+			"idle_offsets": [
+				30,
+				70
+			],
+			"loop_name": "carol youaredead",
+			"idle_name": "carol youaredead"
+		},
+		{
+			"loop_name": "carol letsbattle0",
+			"idle_offsets": [
+				40,
+				54
+			],
+			"idle_name": "carol letsbattle0",
+			"anim": "letsbattle",
+			"loop_offsets": [
+				40,
+				54
+			]
+		}
+	],
+	"image": "carol"
+}

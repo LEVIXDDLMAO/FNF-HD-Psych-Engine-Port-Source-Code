@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -9,7 +9,7 @@
 			"text": "Baby?!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -17,7 +17,7 @@
 			"text": "BABY, WHAT'S WRONG WITH YOU? SPEAK TO ME!"
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -25,7 +25,7 @@
 			"text": "I-I didn't want this to happen but uh..."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -33,7 +33,7 @@
 			"text": "It makes our job a lot easier!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.14,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -49,7 +49,7 @@
 			"text": "!!"
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "normal",
@@ -57,7 +57,7 @@
 			"text": "fuck"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "...!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -81,7 +81,7 @@
 			"text": "What's going on?? The lights weren't off for that long babe."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -89,7 +89,7 @@
 			"text": "(BF):I saw him again...that monster!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -97,7 +97,7 @@
 			"text": "He, he cut your head off and it was on-top the Christmas tree!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -105,7 +105,7 @@
 			"text": "I was so scared you were gone. I missed you, I felt so weak that I couldn't do anything!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "Baby...nothing can kill me. Not even you."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -129,7 +129,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -137,7 +137,7 @@
 			"text": "okay!"
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "How boring! You should've died so I could've snatched you for myself."
 		},
 		{
-			"sound": "dadText",
+			"sound": "dialogue/dadText",
 			"speed": 0.05,
 			"portrait": "dad",
 			"boxState": "angry",
@@ -153,7 +153,7 @@
 			"text": "No, he should've died so that we don't have to worry about him tryna KILL us."
 		},
 		{
-			"sound": "momText",
+			"sound": "dialogue/momText",
 			"speed": 0.05,
 			"portrait": "mom",
 			"boxState": "normal",
@@ -161,7 +161,7 @@
 			"text": "Last I checked, I was the one who wore the pants in this relationship, malewife!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -169,7 +169,7 @@
 			"text": "Can you believe that's gonna be us someday?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -177,7 +177,7 @@
 			"text": "Some day? That was us a few months ago!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -185,7 +185,7 @@
 			"text": "Let's get outta here, I'm tryba give you a white Christmas tonight!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",

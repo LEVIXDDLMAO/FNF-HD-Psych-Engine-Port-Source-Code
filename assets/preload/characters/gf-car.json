@@ -1,13 +1,14 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF Dancing Beat Hair blowing CAR",
 			"indices": [
 				15,
 				16,
@@ -24,17 +25,17 @@
 				27,
 				28,
 				29
-			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF Dancing Beat Hair blowing CAR",
 			"indices": [
 				30,
 				0,
@@ -52,34 +53,44 @@
 				12,
 				13,
 				14
-			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				-104
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "duck",
+			"indices": [],
+			"name": "GF Duck"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-3,
+				-104
+			],
+			"anim": "duck-loop",
 			"fps": 24,
 			"name": "GF Duck",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-3,
-				-104
-			],
 			"indices": [
 				4,
 				5,
 				6
+			]
+		},
+		{
+			"offsets": [
+				0,
+				14
 			],
+			"indices": [],
 			"fps": 24,
-			"anim": "duck-loop",
-			"loop": true,
-			"name": "GF Duck"
+			"anim": "cheer",
+			"loop": false,
+			"name": "GF Cheer Hair blowing CAR0"
 		}
 	],
 	"no_antialiasing": false,

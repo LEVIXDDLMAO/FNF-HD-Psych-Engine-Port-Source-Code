@@ -29,22 +29,22 @@
 			]
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"indices": [],
+			"fps": 20,
 			"anim": "firstDeath",
-			"fps": 24,
-			"name": "BF SONIC DEAD",
-			"indices": []
+			"loop": false,
+			"name": "BF SONIC DEAD"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/bfSonicDead",
 	"position": [
-		-220,
-		135
+		-190,
+		55
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -58,5 +58,5 @@
 		-340
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.9
 }

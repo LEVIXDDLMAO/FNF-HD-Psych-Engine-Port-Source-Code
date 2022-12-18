@@ -263,8 +263,9 @@ class CharacterEditorState extends MusicBeatState
 			changeBGbutton.text = "Regular BG";
 		} else {
 			if(!ClientPrefs.OldHDbg) {
-				var bg:BGSprite = new BGSprite('stageback', -927 + OFFSET_X - playerXDifference, -436, 0.9, 0.9);
-				bg.setGraphicSize(Std.int(bg.width * 1.0));
+				var bg:BGSprite = new BGSprite('stageback', -926 + OFFSET_X - playerXDifference, -437, 0.9, 0.9);
+				bg.setGraphicSize(Std.int(bg.width * 0.5));
+				bg.updateHitbox();
 				bgLayer.add(bg);
 
 				var stageFront:BGSprite = new BGSprite('stagefront', -957 + OFFSET_X - playerXDifference, 620, 0.98, 0.98);
@@ -429,7 +430,7 @@ class CharacterEditorState extends MusicBeatState
 		tab_group.name = "Settings";
 
 		var check_player = new FlxUICheckBox(10, 60, null, null, "Playable Character", 100);
-		check_player.checked = daAnim.startsWith('bf');
+		check_player.checked = daAnim.startsWith('bf') || daAnim.endsWith('-player');
 		check_player.callback = function()
 		{
 			char.isPlayer = !char.isPlayer;
@@ -442,7 +443,7 @@ class CharacterEditorState extends MusicBeatState
 		charDropDown = new FlxUIDropDownMenuCustom(10, 30, FlxUIDropDownMenuCustom.makeStrIdLabelArray([''], true), function(character:String)
 		{
 			daAnim = characterList[Std.parseInt(character)];
-			check_player.checked = daAnim.startsWith('bf');
+			check_player.checked = daAnim.startsWith('bf') || daAnim.endsWith('-player');
 			loadChar(!check_player.checked);
 			updatePresence();
 			reloadCharacterDropDown();

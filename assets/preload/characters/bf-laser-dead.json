@@ -14,7 +14,7 @@
 		{
 			"loop": true,
 			"offsets": [
-				-5,
+				-6,
 				-297
 			],
 			"anim": "deathLoop",
@@ -25,7 +25,7 @@
 		{
 			"loop": false,
 			"offsets": [
-				-5,
+				-6,
 				-259
 			],
 			"anim": "deathConfirm",
@@ -38,7 +38,7 @@
 	"image": "characters/EVISCERATION",
 	"position": [
 		40,
-		370
+		375
 	],
 	"healthicon": "bf",
 	"flip_x": true,

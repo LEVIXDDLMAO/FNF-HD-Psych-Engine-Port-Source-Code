@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "Now, what you think about that?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "I tried my best with that one."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "That's all you got?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "youaredead",
+			"text": "Okay listen you're literally a fucking toddler. Baby bitch can't even wipe his own ass with those big ass hands of yours."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "youaredead",
+			"text": "Can't bend on you knees because they up yo your nuts."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "youaredead",
+			"text": "You're so fucking annoying trying to act like the best shit rapper of this place you piece of shit."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "oof",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "wehhh",
+			"text": "..."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "Uhhhhh, sorry girl."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "I didn't expect that."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "Carol, you should calm yourself"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Sorry, this dude first called me about killing my boyfriend and now your boyfriend is acting like an asshole, its really annoying."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "Okay uh, you want to do the last song?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Sure, what do you think little blue haired crybaby?"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Okay but stop insulting me like that, I have feelings."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "letsbattle",
+			"text": "Okay okay let's do this one."
+		}
+	]
+}

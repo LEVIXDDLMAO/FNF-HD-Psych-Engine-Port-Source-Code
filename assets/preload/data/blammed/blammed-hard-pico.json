@@ -5491,7 +5491,7 @@
 			}
 		],
 		"player2": "bf-opponent-philly-pico",
-		"gfVersion": "gfPico2",
+		"gfVersion": "gf",
 		"events": [
 			[
 				46545.4545454546,

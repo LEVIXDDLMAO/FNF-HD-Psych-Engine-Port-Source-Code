@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -10,7 +10,7 @@
 			"text": "You ask too many questions, big fella! just chill and hang out with a new pal okay?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -19,7 +19,7 @@
 			"text": "W-who the hell are you?! Tell me what you did to them!"
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -28,7 +28,7 @@
 			"text": "I just wanted some alone time with you, is that so wrong?"
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -37,7 +37,7 @@
 			"text": "I'm dying to have a little singing battle with you."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -55,7 +55,7 @@
 			"text": ". . ."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -64,7 +64,7 @@
 			"text": "don't know, but it's gonna be fu-u-un! let's get to singin', shall we?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.115,
 			"portrait": "bf",
 			"boxState": "normal",

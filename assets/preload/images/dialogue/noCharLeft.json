@@ -1,24 +1,24 @@
 {
+	"dialogue_pos": "left",
 	"position": [
 		50,
 		50
 	],
-	"dialogue_pos": "center",
 	"scale": 1.25,
-	"image": "noChar",
 	"animations": [
 		{
-			"loop_name": "noChar instance 1",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "default",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "noChar instance 1",
-			"anim": "default",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"loop_name": "noChar instance 1",
+			"idle_name": "noChar instance 1"
 		}
-	]
+	],
+	"image": "noChar"
 }

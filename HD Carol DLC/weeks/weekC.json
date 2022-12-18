@@ -1,0 +1,45 @@
+{
+	"storyName": "Carol",
+	"storySong": "carolDrumloop",
+	"playSynth": false,
+	"hideFreeplay": false,
+	"weekBackground": "weekC",
+	"weekBefore": "week7",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Carol roll",
+			"carol",
+			[
+				140,
+				120,
+				195
+			]
+		],
+		[
+			"Body",
+			"carol",
+			[
+				140,
+				120,
+				195
+			]
+		],
+		[
+			"Boogie",
+			"carol",
+			[
+				140,
+				120,
+				195
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week C"
+}

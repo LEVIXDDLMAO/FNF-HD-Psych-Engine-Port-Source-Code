@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="carol.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="carol a0000" x="10" y="10" width="1048" height="1035"/>
+	<SubTexture name="carol angry0000" x="1068" y="10" width="728" height="981"/>
+	<SubTexture name="carol ayo0000" x="1806" y="10" width="2071" height="908"/>
+	<SubTexture name="carol bye0000" x="3887" y="10" width="1079" height="1054"/>
+	<SubTexture name="carol down0000" x="4976" y="10" width="975" height="974"/>
+	<SubTexture name="carol funny0000" x="5961" y="10" width="936" height="912"/>
+	<SubTexture name="carol happy0000" x="6907" y="10" width="880" height="892"/>
+	<SubTexture name="carol idle0000" x="10" y="1074" width="993" height="993"/>
+	<SubTexture name="carol idlefront0000" x="1013" y="1074" width="1054" height="1066"/>
+	<SubTexture name="carol letsbattle0000" x="2077" y="1074" width="1036" height="1066"/>
+	<SubTexture name="carol phone0000" x="3123" y="1074" width="1084" height="1042"/>
+	<SubTexture name="carol question0000" x="4217" y="1074" width="962" height="944"/>
+	<SubTexture name="carol stressed0000" x="5189" y="1074" width="1048" height="1066"/>
+	<SubTexture name="carol surprised0000" x="6247" y="1074" width="801" height="943"/>
+	<SubTexture name="carol worried0000" x="7058" y="1074" width="907" height="877"/>
+	<SubTexture name="carol youaredead0000" x="10" y="2150" width="1094" height="1133"/>
+</TextureAtlas>

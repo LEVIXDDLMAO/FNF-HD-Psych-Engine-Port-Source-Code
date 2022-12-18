@@ -10,7 +10,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -19,7 +19,7 @@
 			"text": "...erm--"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -28,7 +28,7 @@
 			"text": "Babe, I know that haunted houses are intended to be eery 'n' shit..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -37,7 +37,7 @@
 			"text": "But nah, this place is whack! I hate it here!!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -46,7 +46,7 @@
 			"text": "What are you so afraid of?"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -55,7 +55,7 @@
 			"text": "I'm here by your side, no one's gonna hurt you."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -64,7 +64,7 @@
 			"text": "But I've BEEN hurt! I got jumpscared so much my scrote's losing control of itself..."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "I'm sure there's a bathroom around here so you can fix yourself up."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -82,7 +82,7 @@
 			"text": "Do you 2 dolls have any idea where a bathroom may be?"
 		},
 		{
-			"sound": "skumpText",
+			"sound": "dialogue/skumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -91,7 +91,7 @@
 			"text": "Up stairs, first door on the right!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -109,7 +109,7 @@
 			"text": "... "
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "angry",
@@ -118,7 +118,7 @@
 			"text": "WAIT WHAT THE FUCK?!"
 		},
 		{
-			"sound": "skidText",
+			"sound": "dialogue/skidText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -127,7 +127,7 @@
 			"text": "(S) We were informed that you were our precious candy, senora GF!"
 		},
 		{
-			"sound": "pumpText",
+			"sound": "dialogue/pumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",
@@ -136,7 +136,7 @@
 			"text": "(P) So we'll be taking you now, as a treat!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -145,7 +145,7 @@
 			"text": "Not so fast! You guys ain't earn her like I did, she's all mine!"
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -154,7 +154,7 @@
 			"text": "Baby..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -163,7 +163,7 @@
 			"text": "UNLESS you guys can beat me in a sing-off! Then you can have her."
 		},
 		{
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
@@ -172,7 +172,7 @@
 			"text": "Bitch..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -181,7 +181,7 @@
 			"text": "Issa good deal ain't it?"
 		},
 		{
-			"sound": "skumpText",
+			"sound": "dialogue/skumpText",
 			"speed": 0.05,
 			"portrait": "spooky",
 			"boxState": "normal",

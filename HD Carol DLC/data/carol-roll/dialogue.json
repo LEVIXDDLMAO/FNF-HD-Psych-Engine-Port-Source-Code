@@ -1,0 +1,212 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "nochar2",
+			"boxState": "normal",
+			"expression": "default",
+			"text": ""
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "Okay, the arcade is closing, I REALLY wanted to beat you on that Cookie Run thing."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Haha! You can't beat me in that, you're not strong enough"
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "reassure",
+			"text": "We should go back to home..."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "reassure",
+			"text": "Or go to McDonalds."
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "GOOD IDEA."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "phone",
+			"text": "Yeah yeah I'm going to talk with him about that later dude calm down."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "owl",
+			"text": "Wait, is that..."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "phone",
+			"text": "Okay, bye..."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "angry",
+			"expression": "surprised",
+			"text": "Wait, GF?!?"
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "owl",
+			"text": "CAROL?!?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "angry",
+			"expression": "ayo",
+			"text": "YOOOOOOOO"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "Whats up girl"
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "We were playing on the arcade, you?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "front",
+			"text": "I was going to come here too but this stupid taller man was talking me in the phone about kill my boyfriend lol."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "question",
+			"text": "Oh, also, who the fuck is him?"
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worry",
+			"text": "Oh! I forgot to talk you about him."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "default",
+			"text": "He is my Boyfriend.xml, the best rapper of the area by far."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "funny",
+			"text": "Oh, really?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "down",
+			"text": "What if we have a rap battle right now?"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "Uhhh I don't know girl I really want to eat something..."
+		},
+		{
+			"sound": "gfText",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "reassure",
+			"text": "We can eat later, I want to hear Carol singing again!"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "sulk",
+			"text": "Uhhh... Okay let's do it."
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "I thought you were a crybaby lol"
+		},
+		{
+			"sound": "boyfriendText",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "angry2",
+			"text": "What did you call me?"
+		},
+		{
+			"sound": "carolText",
+			"speed": 0.05,
+			"portrait": "carol",
+			"boxState": "normal",
+			"expression": "letsbattle",
+			"text": "Nevermind, let's rap!"
+		}
+	]
+}

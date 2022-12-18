@@ -4,7 +4,7 @@
 			"expression": "furious",
 			"text": "OKAY I'M TIRED OF PLAYING FAIR, I'M ACTUALLY JUST FINNA KILL YOU!",
 			"boxState": "angry",
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"speed": 0.05,
 			"portrait": "pico"
 		},
@@ -13,7 +13,7 @@
 			"text": "FUCK THE MONEY, I JUST WANT YOU GONE!",
 			"boxState": "angry",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -28,7 +28,7 @@
 			"text": "You gotta be pullin' my nuts here.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -36,7 +36,7 @@
 			"text": "Whatever, let's throw hands--",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "picoText",
+			"sound": "dialogue/picoText",
 			"portrait": "pico"
 		},
 		{
@@ -44,7 +44,7 @@
 			"text": "Not so fast!",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -59,7 +59,7 @@
 			"text": "You belong to the Dearest family now.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -95,7 +95,7 @@
 			"text": "Uhm...erhm...",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -103,7 +103,7 @@
 			"text": "Yeah so turns out I'm not adopted haha!",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -111,7 +111,7 @@
 			"text": "Just promise you won't tell anyone okay?",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "gfText",
+			"sound": "dialogue/gfText",
 			"portrait": "gf"
 		},
 		{
@@ -119,7 +119,7 @@
 			"text": "...Bet.",
 			"boxState": "normal",
 			"speed": 0.05,
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"portrait": "bf"
 		}
 	]

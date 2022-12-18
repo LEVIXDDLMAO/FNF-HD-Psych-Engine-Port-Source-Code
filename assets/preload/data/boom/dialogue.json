@@ -1,7 +1,7 @@
 {
 	"dialogue": [
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -9,7 +9,7 @@
 			"text": "AHYUGH, AHCK..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -17,7 +17,7 @@
 			"text": "FUCK man, I knew you were fast when it came to running, but you spit fast as hell too!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -25,7 +25,7 @@
 			"text": "I barely even had a chance to catch my breath throughout that!"
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -33,7 +33,7 @@
 			"text": "I had that one memorized, I'm always thinking about it when I run through here."
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -41,7 +41,7 @@
 			"text": "Plus, I DID carry you throughout that."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -49,7 +49,7 @@
 			"text": "I aspire to be at that level of creativity with my music."
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -57,7 +57,7 @@
 			"text": "Well, when you're chasin' baddies all the time, you gotta give yourself something to lose yourself to."
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -65,7 +65,7 @@
 			"text": "It helps getting to the goal a lot easier."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "It's funny. We rap for two entirely different goals."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -81,7 +81,7 @@
 			"text": "You rap to escape, I rap to entertain and get laid!"
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -89,7 +89,7 @@
 			"text": "Get...laid? Why would you need to rap in order to sleep?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -97,7 +97,7 @@
 			"text": "(Thinking: Wow...he's dense.)"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -105,7 +105,7 @@
 			"text": "(Thinking: He just like me for real!)"
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "Hey lil dude, I never even got your name..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -121,7 +121,7 @@
 			"text": "It's BF, like Boyfriend!"
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -129,7 +129,7 @@
 			"text": "I'll just call ya B! Simple, and to the point."
 		},
 		{
-			"sound": "sonicText",
+			"sound": "dialogue/sonicText",
 			"speed": 0.05,
 			"portrait": "sonic",
 			"boxState": "normal",
@@ -145,7 +145,7 @@
 			"text": "--!!"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",
@@ -153,7 +153,7 @@
 			"text": "BRO WHAT THE HELL!?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "angry",

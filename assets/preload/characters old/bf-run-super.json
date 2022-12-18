@@ -1,191 +1,159 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				-25
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP NOTE LEFT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF TOP NOTE LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-4,
 				-25
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP NOTE DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF TOP NOTE DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-7,
 				-23
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP NOTE UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF TOP NOTE UP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				-25
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP NOTE RIGHT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF TOP NOTE RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-62,
 				-9
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP INVISIBLE",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF TOP INVISIBLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-25,
 				-6
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP INVISIBLE",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF TOP INVISIBLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-55,
 				51
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "BF TOP INVISIBLE",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF TOP INVISIBLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-63,
 				-64
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "BF TOP INVISIBLE",
-			"indices": []
+			"indices": [],
+			"name": "BF TOP INVISIBLE"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-3,
 				-25
 			],
+			"loop": true,
+			"fps": 24,
 			"anim": "singLEFT-loop",
-			"fps": 24,
-			"name": "BF TOP NOTE LEFT",
 			"indices": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
 				10,
 				11
-			]
+			],
+			"name": "BF TOP NOTE LEFT"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-3,
 				-25
 			],
-			"anim": "singRIGHT-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "BF TOP NOTE RIGHT",
+			"anim": "singRIGHT-loop",
 			"indices": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
 				10,
 				11
-			]
+			],
+			"name": "BF TOP NOTE RIGHT"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-7,
 				-23
 			],
-			"anim": "singUP-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "BF TOP NOTE UP",
+			"anim": "singUP-loop",
 			"indices": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
 				10,
 				11
-			]
+			],
+			"name": "BF TOP NOTE UP"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-4,
 				-25
 			],
-			"anim": "singDOWN-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "BF TOP NOTE DOWN",
+			"anim": "singDOWN-loop",
 			"indices": [
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
 				10,
 				11
-			]
+			],
+			"name": "BF TOP NOTE DOWN"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				11,
 				-2
 			],
-			"indices": [],
-			"fps": 0,
 			"anim": "idle",
-			"loop": false,
-			"name": "BF TOP0"
+			"fps": 0,
+			"name": "BF TOP0",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

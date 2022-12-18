@@ -9,7 +9,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -25,7 +25,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -33,7 +33,7 @@
 			"text": "come on, talk to me guy!"
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -41,7 +41,7 @@
 			"text": "you don't know how hard it was to kill that girl. she put up quite a fight."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -57,7 +57,7 @@
 			"text": "..."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.11,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -65,7 +65,7 @@
 			"text": "Why man?"
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.11,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -73,7 +73,7 @@
 			"text": "What did I ever do to you?"
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -81,7 +81,7 @@
 			"text": "nothin' to me."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -89,7 +89,7 @@
 			"text": "you were just in the wrong relationship at the wrong time."
 		},
 		{
-			"sound": "boyfriendText",
+			"sound": "dialogue/boyfriendText",
 			"speed": 0.11,
 			"portrait": "bf",
 			"boxState": "normal",
@@ -97,7 +97,7 @@
 			"text": "you..."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -105,7 +105,7 @@
 			"text": "no tears."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -113,7 +113,7 @@
 			"text": "head up, face me. time to carol."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",
@@ -121,7 +121,7 @@
 			"text": "oh...one more thing..."
 		},
 		{
-			"sound": "monsterText",
+			"sound": "dialogue/monsterText",
 			"speed": 0.05,
 			"portrait": "monster",
 			"boxState": "normal",

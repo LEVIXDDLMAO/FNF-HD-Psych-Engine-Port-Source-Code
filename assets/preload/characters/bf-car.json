@@ -37,7 +37,7 @@
 			"loop": false,
 			"offsets": [
 				-57,
-				-29
+				-27
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -63,7 +63,7 @@
 			"loop": false,
 			"offsets": [
 				-28,
-				-17
+				-7
 			],
 			"anim": "singLEFTmiss",
 			"fps": 24,
@@ -196,7 +196,7 @@
 			"loop": false,
 			"offsets": [
 				-57,
-				-29
+				-27
 			],
 			"anim": "singRIGHTmiss-stressed",
 			"fps": 24,
@@ -222,7 +222,7 @@
 			"loop": false,
 			"offsets": [
 				-28,
-				-17
+				-7
 			],
 			"anim": "singLEFTmiss-stressed",
 			"fps": 24,
@@ -298,8 +298,8 @@
 		},
 		{
 			"offsets": [
-				-3,
-				-54
+				16,
+				-22
 			],
 			"loop": false,
 			"fps": 24,
@@ -309,17 +309,44 @@
 		},
 		{
 			"offsets": [
-				-3,
-				-54
+				16,
+				-22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge-stressed",
+			"indices": [],
+			"name": "Stressed dodge"
+		},
+		{
+			"offsets": [
+				16,
+				-22
 			],
 			"loop": true,
 			"fps": 24,
 			"anim": "dodge-loop",
 			"indices": [
-				11,
-				12
+				12,
+				13,
+				14
 			],
 			"name": "boyfriend dodge"
+		},
+		{
+			"offsets": [
+				16,
+				-22
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "dodge-stressed-loop",
+			"indices": [
+				14,
+				15,
+				16
+			],
+			"name": "Stressed dodge"
 		},
 		{
 			"offsets": [
@@ -508,15 +535,15 @@
 				-45,
 				47
 			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-stressed-loop",
 			"indices": [
 				11,
 				12,
 				13,
 				14
 			],
-			"fps": 24,
-			"anim": "singUP-stressed-loop",
-			"loop": true,
 			"name": "Stressed Up0"
 		},
 		{
@@ -524,15 +551,15 @@
 				-35,
 				-62
 			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWN-stressed-loop",
 			"indices": [
 				11,
 				12,
 				13,
 				14
 			],
-			"fps": 24,
-			"anim": "singDOWN-stressed-loop",
-			"loop": true,
 			"name": "Stressed Down0"
 		}
 	],

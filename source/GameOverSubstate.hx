@@ -15,10 +15,12 @@ import flixel.util.FlxAxes;
 class GameOverSubstate extends MusicBeatSubstate
 {
 	public var boyfriend:Boyfriend;
-	public var lmao:FlxText;
+	var lmao:FlxText;
+	var textCrap:String = '';
 	var camFollow:FlxPoint;
 	var camFollowPos:FlxObject;
 	var updateCamera:Bool = false;
+	var playingDeathSound:Bool = false;
 
 	var stageSuffix:String = "";
 
@@ -58,27 +60,44 @@ class GameOverSubstate extends MusicBeatSubstate
 			+ (!checkKey(getKey(dodgeKeys[0])) && !checkKey(getKey(dodgeKeys[1])) ? " " : "")
 			+ getKey(dodgeKeys[1]).toUpperCase();
 
+		if(PlayState.poleDeathCounter < 4) {
+			textCrap = 'Try pressing ' + keysText + 'next time';
+		} else if(PlayState.poleDeathCounter == 4) {
+			textCrap = 'Ok so just press ' + keysText + "it's not that hard";
+		} else if(PlayState.poleDeathCounter == 5) {
+			textCrap = 'BRO! PRESS ' + keysText + 'GOD DAMN IT';
+		} else if(PlayState.poleDeathCounter == 6) {
+			textCrap = 'PRESS ' + keysText + 'PLEASE';
+		} else if(PlayState.poleDeathCounter == 7) {
+			textCrap = keysText + keysText + keysText + keysText + keysText + keysText + keysText + keysText + keysText + keysText;
+		} else if(PlayState.poleDeathCounter == 8) {
+			textCrap = 'I give up...';
+		} else if(PlayState.poleDeathCounter > 8) {
+			textCrap = '...';
+		}
+
 		boyfriend = new Boyfriend(x, y, characterName);
 		boyfriend.x += boyfriend.positionArray[0];
 		boyfriend.y += boyfriend.positionArray[1];
 		add(boyfriend);
 
-		lmao = new FlxText(0, 600, 0, "Try pressing " + keysText + "next time", 32);
+		lmao = new FlxText(0, 600, 0, textCrap, 32);
 		lmao.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0, 2, 1);
 		lmao.alpha = 0;
 		lmao.scrollFactor.set();
 		lmao.screenCenter(FlxAxes.X);
 		add(lmao);
 
-		if(characterName == 'bf-pole-dead' && !isEnding) {
+		if(PlayState.gofuckingdecked && !isEnding) {
 			new FlxTimer().start(1, function(e:FlxTimer){
-				FlxTween.tween(lmao, {alpha: 1}, 1, {ease: FlxEase.circOut});
+				FlxTween.tween(lmao, {alpha: 1}, 0.7, {ease: FlxEase.quadIn});
 			});
 		}
 
 		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
+		PlayState.fuckCval = false;
 		Conductor.changeBPM(100);
 		// FlxG.camera.followLerp = 1;
 		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
@@ -114,7 +133,9 @@ class GameOverSubstate extends MusicBeatSubstate
 		{
 			FlxG.sound.music.stop();
 			PlayState.deathCounter = 0;
+			PlayState.poleDeathCounter = 0;
 			PlayState.seenCutscene = false;
+			PlayState.gofuckingdecked = false;
 
 			if (PlayState.isStoryMode) {
 				MusicBeatState.switchState(new StoryMenuState());
@@ -136,9 +157,27 @@ class GameOverSubstate extends MusicBeatSubstate
 				isFollowingAlready = true;
 			}
 
-			if (boyfriend.animation.curAnim.finished)
+			if (boyfriend.animation.curAnim.finished && !playingDeathSound)
 			{
-				coolStartDeath();
+				if (PlayState.curStage == 'tank')
+				{
+					playingDeathSound = true;
+					coolStartDeath(0.2);
+					
+					var exclude:Array<Int> = [];
+					//if(!ClientPrefs.cursing) exclude = [1, 3, 8, 13, 17, 21];
+
+					FlxG.sound.play(Paths.sound('jeffGameover/jeffGameover-' + FlxG.random.int(1, 25, exclude)), 1, false, null, true, function() {
+						if(!isEnding)
+						{
+							FlxG.sound.music.fadeIn(0.2, 1, 4);
+						}
+					});
+				}
+				else
+				{
+					coolStartDeath();
+				}
 				boyfriend.startedDeath = true;
 			}
 		}
@@ -172,7 +211,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			boyfriend.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.music(endSoundName));
-			if(characterName == 'bf-pole-dead') {
+			if(PlayState.gofuckingdecked) {
 				lmao.alpha = 1;
 			}
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
@@ -180,6 +219,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()
 				{
 					MusicBeatState.resetState();
+					PlayState.gofuckingdecked = false;
 				});
 			});
 			PlayState.instance.callOnLuas('onGameOverConfirm', [true]);
